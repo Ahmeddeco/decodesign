@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  body {
+    @apply text-Black10 bg-Dark_Gray;
+  }
+  p{
+    @apply text-Black10
+  }
+  .h1{
+    @apply text-[90px]
+  }
+}
