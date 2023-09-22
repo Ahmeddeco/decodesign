@@ -1,7 +1,8 @@
+import Hero from '@/components/Hero'
 import React from 'react'
 
 const Home = () => {
-  return <h1 className='container h1 text-gold'>ديكو ديزاين</h1>
+  return <Hero/>
 }
 
 export default Home

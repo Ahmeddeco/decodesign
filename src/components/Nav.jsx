@@ -1,7 +1,6 @@
-import React from 'react'
-
+import Image from 'next/image'
 const Nav = () => {
-  return <div>Nav</div>
+  return <nav className='pt-[38px] px-[122px] flex'>Nav</nav>
 }
 
 export default Nav

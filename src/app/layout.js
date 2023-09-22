@@ -3,6 +3,7 @@ import './globals.css'
 import Footer from '@/components/Footer'
 import { Vazirmatn, Lemonada } from 'next/font/google'
 
+// fonts --------------------------------
 const vazirmatn = Vazirmatn({
   subsets: ['latin'],
   display: 'swap',
@@ -15,14 +16,16 @@ const lemonada = Lemonada({
   variable: '--font-lemonada',
 })
 
+// metadata -----------------------------
 export const metadata = {
   title: 'ديكو ديزاين',
   description: 'تصميم ديكور ثلاثي الابعاد ، وتشطيبات متكاملة.',
 }
 
+
 export default function RootLayout({ children }) {
   return (
-    <html lang='ar' className={`${lemonada.variable} ${vazirmatn.variable}`}>
+    <html lang='ar' dir='rtl' className={`${lemonada.variable} ${vazirmatn.variable}`}>
       <body>
         <main>
           <Nav />
