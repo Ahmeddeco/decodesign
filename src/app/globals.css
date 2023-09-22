@@ -6,10 +6,32 @@
   body {
     @apply text-Black10 bg-Dark_Gray;
   }
-  p{
-    @apply text-Black10
+
+  p {
+    @apply text-Black10;
   }
-  .h1{
-    @apply text-[90px]
+
+  .h1 {
+    @apply text-[90px];
+  }
+
+  .h2 {
+    @apply text-[64px];
+  }
+
+  .h3 {
+    @apply text-[45px];
+  }
+
+  .h4 {
+    @apply text-[32px];
+  }
+
+  .h5 {
+    @apply text-[22px];
+  }
+
+  .h6 {
+    @apply text-[16px];
   }
 }
