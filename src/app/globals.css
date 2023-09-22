@@ -9,29 +9,68 @@
 
   p {
     @apply text-Black10;
+    font-family: var(--font-lemonada);
   }
 
   .h1 {
     @apply text-[90px];
+    font-family: var(--font-lemonada);
   }
 
   .h2 {
     @apply text-[64px];
+    font-family: var(--font-lemonada);
+
   }
 
   .h3 {
     @apply text-[45px];
+    font-family: var(--font-lemonada);
   }
 
   .h4 {
     @apply text-[32px];
+    font-family: var(--font-lemonada);
   }
 
   .h5 {
     @apply text-[22px];
+    font-family: var(--font-lemonada);
   }
 
   .h6 {
     @apply text-[16px];
+    font-family: var(--font-lemonada);
+  }
+
+  .H1 {
+    @apply text-[90px];
+    font-family: var(--font-vazirmatn);
+  }
+
+  .H2 {
+    @apply text-[64px];
+    font-family: var(--font-vazirmatn);
+
+  }
+
+  .H3 {
+    @apply text-[45px];
+    font-family: var(--font-vazirmatn);
+  }
+
+  .H4 {
+    @apply text-[32px];
+    font-family: var(--font-vazirmatn);
+  }
+
+  .H5 {
+    @apply text-[22px];
+    font-family: var(--font-vazirmatn);
+  }
+
+  .H6 {
+    @apply text-[16px];
+    font-family: var(--font-vazirmatn);
   }
 }

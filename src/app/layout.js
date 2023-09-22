@@ -1,9 +1,18 @@
+import Nav from '@/components/Nav'
 import './globals.css'
-import { Roboto } from 'next/font/google'
+import Footer from '@/components/Footer'
+import { Vazirmatn, Lemonada } from 'next/font/google'
 
-const roboto = Roboto({
+const vazirmatn = Vazirmatn({
   subsets: ['latin'],
-  weight: ['100', '300', '500', '700'],
+  display: 'swap',
+  variable: '--font-vazirmatn',
+})
+
+const lemonada = Lemonada({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-lemonada',
 })
 
 export const metadata = {
@@ -13,8 +22,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='en'>
-      <body className={roboto.className}>{children}</body>
+    <html lang='ar' className={`${lemonada.variable} ${vazirmatn.variable}`}>
+      <body>
+        <main>
+          <Nav />
+          {children}
+          <Footer />
+        </main>
+      </body>
     </html>
   )
 }
