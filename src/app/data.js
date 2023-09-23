@@ -46,6 +46,37 @@ export const navigation = [
   },
 ]
 
+export const social = [
+  {
+    socialName: 'facbook',
+    icon: facebookIcon,
+    url: 'facebook.com',
+  },
+  {
+    socialName: 'instagram',
+    icon: instagramIcon,
+    url: 'www.instagram.com',
+  },
+  {
+    socialName: 'whatsapp',
+    icon: whatsappIcon,
+    url: 'www.facebook.com',
+  },
+  {
+    socialName: 'Behance',
+    icon: BehanceIcon,
+    url: 'www.behance.net/ahmeddesigner1981',
+  },
+]
+
+// export const button={
+//   callusButton:{
+//     title:'اتصل بنا',
+
+//   },
+//   moreButton:{},
+// }
+
 export const hero = {
   title: 'ديكو ديزاين',
   subtitle: 'أستديو تصميم',
