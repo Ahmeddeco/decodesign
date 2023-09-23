@@ -20,12 +20,13 @@ const lemonada = Lemonada({
 export const metadata = {
   title: 'ديكو ديزاين',
   description: 'تصميم ديكور ثلاثي الابعاد ، وتشطيبات متكاملة.',
+
 }
 
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='ar' dir='rtl' className={`${lemonada.variable} ${vazirmatn.variable}`}>
+    <html lang='ar' dir='rtl' charsetclassname={`${lemonada.variable} ${vazirmatn.variable}`}>
       <body>
         <main>
           <Nav />
