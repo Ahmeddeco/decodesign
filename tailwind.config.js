@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        inter: ['--font-vazirmatn'],
-        roboto: ['--font-lemonada'],
+        vazirmatn: ['--font-vazirmatn'],
+        lemonada: ['--font-lemonada'],
       },
     },
     container: {
@@ -26,7 +26,7 @@ module.exports = {
 
     colors: {
       gold: '#B68944',
-      darkblack: '#161615',
+      darkblack: '#161616',
       Dark_Gray: '#2C2C2A',
       Black75: '#3C3C3C',
       Black50: '#9C9B9B',
@@ -34,7 +34,7 @@ module.exports = {
       Black10: '#CDCCCC',
       Black5: '#D4D4D3',
     },
-    body: '#161615',
+    body: '#161616',
   },
   plugins: [],
 }

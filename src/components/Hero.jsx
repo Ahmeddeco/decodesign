@@ -1,16 +1,21 @@
-import React from 'react'
+import { hero } from '../app/data'
 import backgrond from '../../public/background.png'
 import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <section className='h-screen' id='hero'>
+    <section
+      className='h-screen mx-auto flex flex-col justify-center items-center'
+      id='hero'>
       <Image
         src={backgrond}
         fill
         alt='deco design back ground'
         className='-z-50'
       />
+      <h1 className='h1 font-lemonada text-gold'>{hero.title}</h1>
+      <h2 className='h2 font-lemonada text-Black5'>{hero.subtitle}</h2>
+      <p className="">{hero.p}</p>
     </section>
   )
 }

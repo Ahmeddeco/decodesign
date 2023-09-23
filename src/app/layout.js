@@ -1,18 +1,18 @@
-import Nav from '@/components/Nav'
 import './globals.css'
-import Footer from '@/components/Footer'
 import { Vazirmatn, Lemonada } from 'next/font/google'
+import Nav from '@/components/Nav'
+import Footer from '@/components/Footer'
 
 // fonts --------------------------------
 const vazirmatn = Vazirmatn({
-  subsets: ['latin'],
-  display: 'swap',
+  subsets: ['arabic'],
+  // display: 'swap',
   variable: '--font-vazirmatn',
 })
 
 const lemonada = Lemonada({
-  subsets: ['latin'],
-  display: 'swap',
+  subsets: ['arabic'],
+  // display: 'auto',
   variable: '--font-lemonada',
 })
 
@@ -26,7 +26,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='ar' dir='rtl' charsetclassname={`${lemonada.variable} ${vazirmatn.variable}`}>
+    <html lang='ar' dir='rtl' charsetclassname={`${lemonada} ${vazirmatn}`}>
       <body>
         <main>
           <Nav />

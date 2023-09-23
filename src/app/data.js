@@ -69,14 +69,6 @@ export const social = [
   },
 ]
 
-// export const button={
-//   callusButton:{
-//     title:'اتصل بنا',
-
-//   },
-//   moreButton:{},
-// }
-
 export const hero = {
   title: 'ديكو ديزاين',
   subtitle: 'أستديو تصميم',

@@ -6,7 +6,7 @@ import { TbBrandFacebook } from 'react-icons/tb'
 
 const Nav = () => {
   return (
-    <nav className='py-2 px-[122px] flex justify-between items-center fixed z-50 bg-opacity-20 bg-darkblack w-full'>
+    <nav className='py-2 px-[122px] flex justify-between items-center fixed z-50 bg-opacity-20 bg-darkblack w-full '>
       {/* ----------------- logo ---------------- */}
       <Link href='/'>
         <Image
@@ -22,7 +22,7 @@ const Nav = () => {
         {navigation.map(({ name, href }) => {
           return (
             <ul key={name}>
-              <li className='px-8'>
+              <li className='px-8 text-Black10'>
                 <Link href={href}>{name}</Link>
               </li>
             </ul>
@@ -34,9 +34,9 @@ const Nav = () => {
         {social.map(({ socialName, icon, url }) => {
           return (
             <ul key={socialName}>
-              <li className='px-4 hover:bg-gold '>
+              <li className='px-4 hover:scale-110 duration-300 scroll-smooth'>
                 <Link
-                  href='www.facbook.com'
+                  href={url}
                   target='_blank'>
                   <Image src={icon} />
                 </Link>
