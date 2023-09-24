@@ -50,7 +50,7 @@ export const social = [
   {
     socialName: 'facbook',
     icon: facebookIcon,
-    url: 'facebook.com',
+    url: 'www.facebook.com',
   },
   {
     socialName: 'instagram',

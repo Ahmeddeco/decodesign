@@ -22,7 +22,7 @@ const Nav = () => {
         {navigation.map(({ name, href }) => {
           return (
             <ul key={name}>
-              <li className='px-8 text-Black10'>
+              <li className='px-8 text-Black10 hover:scale-110 hover:text-gold font-extrabold text-2xl duration-300 scroll-smooth'>
                 <Link href={href}>{name}</Link>
               </li>
             </ul>
@@ -38,7 +38,10 @@ const Nav = () => {
                 <Link
                   href={url}
                   target='_blank'>
-                  <Image src={icon} />
+                  <Image
+                    src={icon}
+                    alt={socialName}
+                  />
                 </Link>
               </li>
             </ul>

@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Hero = () => {
   return (
     <section
-      className='h-screen mx-auto flex flex-col justify-center items-center'
+      className='h-screen mx-auto relative flex flex-col justify-center items-center '
       id='hero'>
       <Image
         src={backgrond}
@@ -14,8 +14,8 @@ const Hero = () => {
         className='-z-50'
       />
       <h1 className='h1 font-lemonada text-gold'>{hero.title}</h1>
-      <h2 className='h2 font-lemonada text-Black5'>{hero.subtitle}</h2>
-      <p className="">{hero.p}</p>
+      <h2 className='h2 font-lemonada'>{hero.subtitle}</h2>
+      <p className='p'>{hero.p}</p>
     </section>
   )
 }
