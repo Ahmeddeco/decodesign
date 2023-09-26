@@ -12,7 +12,7 @@ const vazirmatn = Vazirmatn({
 
 const lemonada = Lemonada({
   subsets: ['arabic'],
-  // display: 'auto',
+  // display: 'swap',
   variable: '--font-lemonada',
 })
 
@@ -26,7 +26,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='ar' dir='rtl' charsetclassname={`${lemonada} ${vazirmatn}`}>
+    <html lang='ar' dir='rtl' className={`${lemonada.variable} ${vazirmatn.variable}`}>
       <body>
         <main>
           <Nav />

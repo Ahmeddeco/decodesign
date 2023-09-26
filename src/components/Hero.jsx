@@ -14,8 +14,8 @@ const Hero = () => {
         className='-z-50'
       />
       <h1 className='h1 font-lemonada text-gold'>{hero.title}</h1>
-      <h2 className='h2 font-lemonada'>{hero.subtitle}</h2>
-      <p className='p'>{hero.p}</p>
+      <h2 className='h2 font-lemonada py-6'>{hero.subtitle}</h2>
+      <p className='p font-vazirmatn pt-6'>{hero.p}</p>
     </section>
   )
 }

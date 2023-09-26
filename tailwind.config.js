@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        vazirmatn: ['--font-vazirmatn'],
-        lemonada: ['--font-lemonada'],
+        vazirmatn: ['var(--font-vazirmatn)'],
+        lemonada: ['var(--font-lemonada)'],
       },
     },
     container: {

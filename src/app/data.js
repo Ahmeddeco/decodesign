@@ -16,11 +16,9 @@ import goldenArrow from '/public/Arrow 1.png'
 import cardImage1 from '/public/Rectangle 23.png'
 import cardImage2 from '/public/Rectangle 21.png'
 import cardImage3 from '/public/Rectangle 19.png'
-import facebookIcon from '/public/facebook.png'
-import instagramIcon from '/public/instagram.png'
-import whatsappIcon from '/public/whatsapp.png'
-import BehanceIcon from '/public/Behance.png'
 import Logo from '/public/logo.png'
+import { TbBrandFacebook, TbBrandInstagram, TbBrandWhatsapp, TbBrandBehance } from 'react-icons/tb'
+
 
 export const logo = {
   src: Logo,
@@ -49,23 +47,23 @@ export const navigation = [
 export const social = [
   {
     socialName: 'facbook',
-    icon: facebookIcon,
-    url: 'www.facebook.com',
+    icon: <TbBrandFacebook />,
+    url: 'https://www.facebook.com',
   },
   {
     socialName: 'instagram',
-    icon: instagramIcon,
-    url: 'www.instagram.com',
+    icon: <TbBrandInstagram />,
+    url: 'https://www.instagram.com',
   },
   {
     socialName: 'whatsapp',
-    icon: whatsappIcon,
-    url: 'www.facebook.com',
+    icon: <TbBrandWhatsapp />,
+    url: 'https://wa.me/+201152640142',
   },
   {
     socialName: 'Behance',
-    icon: BehanceIcon,
-    url: 'www.behance.net/ahmeddesigner1981',
+    icon: <TbBrandBehance />,
+    url: 'https://www.behance.net/ahmeddesigner1981',
   },
 ]
 
@@ -251,27 +249,6 @@ export const footer = {
     title: 'التواصل',
     paragraph:
       'تابعنا على وسائل التواصل الاجتماعي حتى لا تفوت المشاريع الجديدة المذهلة المصممة لعملائنا حول العالم.',
-    social: [
-      {
-        socialName: 'facbook',
-        icon: facebookIcon,
-        url: 'www.facebook.com',
-      },
-      {
-        socialName: 'instagram',
-        icon: instagramIcon,
-        url: 'www.instagram.com',
-      },
-      {
-        socialName: 'whatsapp',
-        icon: whatsappIcon,
-        url: 'www.facebook.com',
-      },
-      {
-        socialName: 'Behance',
-        icon: BehanceIcon,
-        url: 'www.behance.net/ahmeddesigner1981',
-      },
-    ],
+
   },
 }
