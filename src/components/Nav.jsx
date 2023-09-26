@@ -1,8 +1,7 @@
 import Image from 'next/image'
-import { logo, social } from '../app/data'
+import { logo, social } from '../constants/data'
 import Link from 'next/link'
 import Button from './Button'
-// import { useState } from 'react'
 import NavLinks from './NavLinks'
 
 const Nav = () => {

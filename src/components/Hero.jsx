@@ -1,4 +1,4 @@
-import { hero } from '../app/data'
+import { hero } from '../constants/data'
 import backgrond from '../../public/background.png'
 import Image from 'next/image'
 
