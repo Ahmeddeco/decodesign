@@ -28,19 +28,31 @@ export const logo = {
 export const navigation = [
   {
     name: 'الرئيسية',
-    href: '#hero',
+    target: 'Hero',
   },
   {
     name: 'من نحن',
-    href: '#about us',
+    target: 'AboutUs',
   },
   {
     name: 'خدماتنا',
-    href: '#services',
+    target: 'OurServices',
+  },
+  {
+    name: 'مراحل العمل',
+    target: 'WorkProgress',
   },
   {
     name: 'اعمالنا',
-    href: '#our works',
+    target: 'OurWorks',
+  },
+  {
+    name: 'التوصيات',
+    target: 'Testimonials',
+  },
+  {
+    name: 'آخر أعمالنا',
+    target: 'OurLatestWorks',
   },
 ]
 
@@ -48,12 +60,12 @@ export const social = [
   {
     socialName: 'facbook',
     icon: <TbBrandFacebook />,
-    url: 'https://www.facebook.com',
+    url: 'https://www.facebook.com/profile.php?id=100085078434274',
   },
   {
     socialName: 'instagram',
     icon: <TbBrandInstagram />,
-    url: 'https://www.instagram.com',
+    url: 'https://www.instagram.com/decodesigndecodesign/',
   },
   {
     socialName: 'whatsapp',

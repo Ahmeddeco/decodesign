@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section
       className='h-screen mx-auto relative flex flex-col justify-center items-center '
-      id='hero'>
+      id='Hero'>
       <Image
         src={backgrond}
         fill

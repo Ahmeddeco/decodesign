@@ -16,6 +16,7 @@ module.exports = {
       padding: {
         DEFAULT: '15px',
       },
+
     },
     screens: {
       sm: '640px',
@@ -33,6 +34,8 @@ module.exports = {
       Black25: '#B6B6B6',
       Black10: '#CDCCCC',
       Black5: '#D4D4D3',
+      redish: '#A64A37',
+      bluish: '#3309DD',
     },
     body: '#161616',
   },

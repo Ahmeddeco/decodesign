@@ -36,4 +36,8 @@
     @apply text-[16px];
   }
 
+  .container{
+    @apply p-28 mx-auto h-screen flex justify-center items-center
+  }
+  
 }

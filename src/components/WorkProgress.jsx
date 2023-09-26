@@ -1,7 +1,13 @@
 import React from 'react'
 
 const WorkProgress = () => {
-  return <div>WorkProgress</div>
+  return (
+    <section
+      className='container bg-redish'
+      id='WorkProgress'>
+      WorkProgress
+    </section>
+  )
 }
 
 export default WorkProgress

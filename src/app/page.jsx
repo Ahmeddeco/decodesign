@@ -15,8 +15,8 @@ const Home = () => {
       <OurServices />
       <WorkProgress />
       <OurWorks />
-      <Testimonials/>
-      <OurLatestWorks/>
+      <Testimonials />
+      <OurLatestWorks />
     </Fragment>
   )
 }
