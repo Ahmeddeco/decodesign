@@ -8,7 +8,7 @@ const Nav = () => {
   // const [nav, setNav] = useState(false)
 
   return (
-    <header className='py-2 px-28 fixed z-50 bg-opacity-30 bg-darkblack w-full '>
+    <header className='py-2 px-28 fixed z-50 bg-opacity-90  bg-Dark_Gray w-full '>
       <nav className='flex justify-between items-center'>
         {/* ----------------- logo ---------------- */}
         <Link href='/'>

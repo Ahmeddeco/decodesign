@@ -12,12 +12,12 @@ module.exports = {
         lemonada: ['var(--font-lemonada)'],
       },
     },
-    container: {
-      padding: {
-        DEFAULT: '15px',
-      },
+    // container: {
+    //   padding: {
+    //     DEFAULT: '15px',
+    //   },
 
-    },
+    // },
     screens: {
       sm: '640px',
       md: '768px',

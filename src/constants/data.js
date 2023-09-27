@@ -17,7 +17,8 @@ import cardImage1 from '/public/Rectangle 23.png'
 import cardImage2 from '/public/Rectangle 21.png'
 import cardImage3 from '/public/Rectangle 19.png'
 import Logo from '/public/logo.png'
-import { TbBrandFacebook, TbBrandInstagram, TbBrandWhatsapp, TbBrandBehance } from 'react-icons/tb'
+import { TbBrandFacebook, TbBrandInstagram, TbBrandWhatsapp, TbBrandBehance, TbMenu2 } from 'react-icons/tb'
+import { TfiClose } from 'react-icons/tfi'
 
 
 export const logo = {
@@ -53,6 +54,18 @@ export const navigation = [
   {
     name: 'آخر أعمالنا',
     target: 'OurLatestWorks',
+  },
+]
+export const navCloseBurgerIcons = [
+  {
+    id: 1,
+    title: 'burgere',
+    icon: <TbMenu2 />
+  },
+  {
+    id: 2,
+    title: 'close',
+    icon: <TfiClose />
   },
 ]
 
@@ -94,21 +107,18 @@ export const about = {
 
 export const state = [
   {
-    value: '2k',
-    text: 'متابع',
+    value: '2.1k',
+    title: 'متابع',
   },
   {
     value: '15+',
-    text: 'مدينة',
+    title: 'مدينة',
   },
   {
     value: '25+',
-    text: 'مشروع',
+    title: 'مشروع',
   },
-  {
-    value: '5+',
-    text: 'الجوائز',
-  },
+  
 ]
 
 export const service = {

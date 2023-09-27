@@ -6,7 +6,7 @@ import Btn from './Btn'
 const Hero = () => {
   return (
     <section
-      className=' relative h-screen w-screen py-60'
+      className=' relative h-screen w-screen py-32'
       id='Hero'>
       {/* --------------- background --------------- */}
       <Image

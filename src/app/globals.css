@@ -37,8 +37,8 @@
     @apply text-[16px];
   }
 
-  /* .container {
-    @apply mx-auto w-screen h-screen flex justify-center items-center
-  } */
+  .container {
+    @apply mx-auto h-screen flex justify-center items-center
+  }
 
 }
