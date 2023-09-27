@@ -6,7 +6,8 @@
   body {
     @apply text-Black10 bg-Dark_Gray;
   }
-  .p{
+
+  .p {
     @apply font-bold text-xl
   }
 
@@ -36,8 +37,8 @@
     @apply text-[16px];
   }
 
-  .container{
-    @apply p-28 mx-auto h-screen flex justify-center items-center
-  }
-  
+  /* .container {
+    @apply mx-auto w-screen h-screen flex justify-center items-center
+  } */
+
 }

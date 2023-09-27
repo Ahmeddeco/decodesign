@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang='ar' dir='rtl' className={`${lemonada.variable} ${vazirmatn.variable}`}>
       <body>
-        <main>
+        <main >
           <Nav />
           {children}
           <Footer />

@@ -6,16 +6,18 @@ import React from 'react'
 
 const NavLinks = () => {
   return (
-    <div className='flex'>
+    <div className='xl:flex hidden gap-x-4 xl:gap-x-16'>
       {navigation.map(({ name, target }) => {
         return (
-          <ul key={name}>
-            <li className='px-4 text-Black10 hover:text-gold font-extrabold text-xl duration-300 scroll-smooth'>
+          <ul
+            key={name}
+            className=''>
+            <li className=' text-Black10 hover:text-gold font-extrabold text-xl duration-300 scroll-smooth'>
               <Link
                 className='cursor-pointer'
                 to={target}
                 smooth={true}
-                duration={500}>
+                duration={800}>
                 {name}
               </Link>
             </li>
