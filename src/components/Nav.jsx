@@ -3,13 +3,14 @@ import { logo } from '../constants/data'
 import Link from 'next/link'
 import NavLinks from './NavLinks'
 import SocialIcons from './SocialIcons'
+import NavMobile from './NavMobile'
 
 const Nav = () => {
   // const [nav, setNav] = useState(false)
 
   return (
-    <header className='py-2 px-28 fixed z-50 bg-opacity-90  bg-Dark_Gray w-full '>
-      <nav className='flex justify-between items-center'>
+    <header className='py-2 px-16 w-full fixed z-50 bg-opacity-80  bg-darkblack'>
+      <nav className='flex justify-between items-center lg:gap-8'>
         {/* ----------------- logo ---------------- */}
         <Link href='/'>
           <Image
@@ -27,6 +28,9 @@ const Nav = () => {
         {/* ------------- Social Icons ------------ */}
         <SocialIcons />
         
+        {/* ------------- Social Icons ------------ */}
+
+        <NavMobile/>
       </nav>
     </header>
   )

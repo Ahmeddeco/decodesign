@@ -1,15 +1,14 @@
 'use client'
 import { Link } from 'react-scroll'
-import { navigation,navCloseBurgerIcons } from '../constants/data'
+import { navigation, navCloseBurgerIcons } from '../constants/data'
 
 import React from 'react'
 
 const NavLinks = () => {
   return (
-
     // ------------------- desktop menu -------------------
-    
-    <div className='xl:flex hidden gap-x-4 xl:gap-x-16'>
+
+    <div className='lg:flex hidden gap-x-4 xl:gap-x-16'>
       {navigation.map(({ name, target }) => {
         return (
           <ul
@@ -28,9 +27,6 @@ const NavLinks = () => {
         )
       })}
     </div>
-
-      // ------------------- mobile menu -------------------
-
   )
 }
 

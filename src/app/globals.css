@@ -38,7 +38,7 @@
   }
 
   .container {
-    @apply mx-auto h-screen flex justify-center items-center
+    @apply mx-auto min-h-screen flex justify-center items-center lg:py-0 py-8 px-4 lg:px-0
   }
 
 }

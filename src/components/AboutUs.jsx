@@ -4,13 +4,13 @@ import { about, state } from '../constants/data'
 const AboutUs = () => {
   return (
     <section
-      className='container flex flex-row justify-between items-center'
+      className='container flex lg:gap-60 gap-12 xl:flex-row flex-col justify-between items-center'
       id='AboutUs'>
       {/* ------------ Title & state container ------------ */}
-      <div className='flex flex-col gap-y-12 flex-1 justify-center items-start'>
+      <div className='flex flex-col gap-y-12 flex-1 justify-center lg:items-start items-center'>
       {/* ------------ Title ------------ */}
         <h3 className='h3 font-lemonada text-gold'>{about.title}</h3>
-        <p className='p'>
+        <p className='p text-center lg:text-right'>
           {about.p1}
           <br />
           <br />
