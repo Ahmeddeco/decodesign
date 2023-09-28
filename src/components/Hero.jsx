@@ -18,7 +18,9 @@ const Hero = () => {
       />
       <Image
         src={smallBackgrond}
-        fill
+        // fill
+        width={1920}
+        height={923}
         alt='deco design back ground'
         className='-z-50 lg:hidden block'
       />
