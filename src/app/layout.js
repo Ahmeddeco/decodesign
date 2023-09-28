@@ -20,6 +20,7 @@ const lemonada = Lemonada({
 export const metadata = {
   title: 'ديكو ديزاين',
   description: 'تصميم ديكور ثلاثي الابعاد ، وتشطيبات متكاملة.',
+  "google-site-verification": "PYgpyAzQXVjQZaCcSHMEmaDsJ-rEv4dm07km-NPVjro",
 
 }
 
