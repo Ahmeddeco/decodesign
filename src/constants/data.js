@@ -56,18 +56,10 @@ export const navigation = [
     target: 'OurLatestWorks',
   },
 ]
-export const navCloseBurgerIcons = [
-  {
-    id: 1,
-    title: 'burgere',
-    icon: <TbMenu2 />
-  },
-  {
-    id: 2,
-    title: 'close',
-    icon: <TfiClose />
-  },
-]
+export const BurgerIcon =
+  '<TbMenu2 />'
+export const closeIcon =
+  '<TfiClose />'
 
 export const social = [
   {
@@ -118,7 +110,7 @@ export const state = [
     value: '25+',
     title: 'مشروع',
   },
-  
+
 ]
 
 export const service = {

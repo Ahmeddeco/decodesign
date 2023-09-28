@@ -1,6 +1,6 @@
 'use client'
 import { Link } from 'react-scroll'
-import { navigation, navCloseBurgerIcons } from '../constants/data'
+import { navigation } from '../constants/data'
 
 import React from 'react'
 
