@@ -1,10 +1,8 @@
 'use client'
 import { Link } from 'react-scroll'
 import { navigation } from '../constants/data'
-// import { useState } from 'react'
 
 const NavMobile = () => {
-  // const [click, setClick] = useState(false)
   return (
     <nav className='flex'>
       {/* ______-___________ mobile nav ____-_____________ */}
@@ -17,8 +15,7 @@ const NavMobile = () => {
                 className='cursor-pointer text-xl'
                 to={target}
                 smooth={true}
-                duration={800}
-                onClick={() => setClick(!click)}>
+                duration={800}>
                 {name}
               </Link>
             </li>
