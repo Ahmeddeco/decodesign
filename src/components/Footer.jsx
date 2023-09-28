@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer
       id='footer'
-      className=' bg-gold'>
+      className=' '>
       Footer
     </footer>
   )

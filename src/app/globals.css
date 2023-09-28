@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply text-Black10 bg-Dark_Gray;
+    @apply text-Black5 bg-darkblack;
   }
 
   .p {

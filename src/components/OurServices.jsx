@@ -3,7 +3,7 @@ import React from 'react'
 const OurServices = () => {
   return (
     <section
-      className='container bg-bluish'
+      className='container '
       id='OurServices'>
       OurServices
     </section>

@@ -25,7 +25,7 @@ const AboutUs = () => {
                 key={title}
                 className='flex flex-col items-center justify-center border-gold even:border-x-2 lg:even:px-12 even:px-6 lg:first:pl-12 first:pl-6 lg:last:pr-12 last:pr-6 '>
                 <h4 className='lg:h4 h5 font-vazirmatn'>{value}</h4>
-                <h6 className='lg:h5 h6 font-lemonada text-gold'>{title}</h6>
+                <h5 className='lg:h5 h6 font-lemonada text-gold'>{title}</h5>
               </div>
             )
           })}

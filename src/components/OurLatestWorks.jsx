@@ -3,7 +3,7 @@ import React from 'react'
 const OurLatestWorks = () => {
   return (
     <section
-      className='container bg-bluish'
+      className='container '
       id='OurLatestWorks'>
       OurLatestWorks
     </section>

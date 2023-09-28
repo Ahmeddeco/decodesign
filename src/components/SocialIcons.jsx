@@ -13,7 +13,8 @@ const SocialIcons = () => {
               <li className='duration-300 scroll-smooth text-2xl text-Black10 hover:text-gold'>
                 <Link
                   href={url}
-                  target='_blank'>
+                  target='_blank'
+                  aria-label={socialName}>
                   {icon}
                 </Link>
               </li>
