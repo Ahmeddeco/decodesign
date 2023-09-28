@@ -1,6 +1,6 @@
 import { hero } from '../constants/data'
-import backgrond from '../../public/background.png'
-import smallBackgrond from '../../public/smallBackground.png'
+import backgrond from '../../public/background.webp'
+import smallBackgrond from '../../public/smallBackground.webp'
 import Image from 'next/image'
 import Btn from './Btn'
 
@@ -14,9 +14,17 @@ const Hero = () => {
         src={backgrond}
         fill
         alt='deco design back ground'
-        className='-z-50 '
+        className='-z-50'
+        //  hidden md:block
       />
-      
+      {/* ------------ small background ------------ */}
+      {/* <Image
+        src={smallBackgrond}
+        fill
+        alt='deco design back ground'
+        className='-z-50 block md:hidden'
+      /> */}
+
       {/* ------------ Title &Subtitle ------------- */}
       <div className='flex flex-col gap-12 justify-center items-center'>
         <div className='flex flex-col justify-center items-center gap-4'>
