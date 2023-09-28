@@ -14,16 +14,9 @@ const Hero = () => {
         src={backgrond}
         fill
         alt='deco design back ground'
-        className='-z-50 lg:block hidden'
+        className='-z-50 '
       />
-      <Image
-        src={smallBackgrond}
-        // fill
-        width={1920}
-        height={923}
-        alt='deco design back ground'
-        className='-z-50 lg:hidden block'
-      />
+      
       {/* ------------ Title &Subtitle ------------- */}
       <div className='flex flex-col gap-12 justify-center items-center'>
         <div className='flex flex-col justify-center items-center gap-4'>
