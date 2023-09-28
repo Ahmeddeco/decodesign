@@ -7,26 +7,19 @@ import Btn from './Btn'
 const Hero = () => {
   return (
     <section
-      className=' relative h-screen w-screen lg:py-56 py-64'
+      className='flex flex-col  h-screen w-screen '
       id='Hero'>
       {/* --------------- background --------------- */}
       <Image
         src={backgrond}
-        fill
+        width={1920}
+        height={923}
         alt='deco design back ground'
-        className='-z-50'
-        //  hidden md:block
+        className='-z-50 absolute'
       />
-      {/* ------------ small background ------------ */}
-      {/* <Image
-        src={smallBackgrond}
-        fill
-        alt='deco design back ground'
-        className='-z-50 block md:hidden'
-      /> */}
 
       {/* ------------ Title &Subtitle ------------- */}
-      <div className='flex flex-col gap-12 justify-center items-center'>
+      <div className='flex flex-col gap-12 justify-center items-center pt-64'>
         <div className='flex flex-col justify-center items-center gap-4'>
           <h1 className='h3 lg:h1 font-lemonada text-gold'>{hero.title}</h1>
           <h2 className='h4 lg:h2 font-lemonada py-6'>{hero.subtitle}</h2>
