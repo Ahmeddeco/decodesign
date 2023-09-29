@@ -181,6 +181,7 @@ export const ourWork = {
 export const testimonial = {
   mainTitle: 'التوصيات',
   mianImage: testimonialsImageMain,
+  alt: 'غرفة صالون مودرن',
   card: [
     {
       avatarImage: testimonialsAvatarImage,
