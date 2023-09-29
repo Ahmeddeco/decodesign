@@ -1,23 +1,11 @@
 import { hero } from '../constants/data'
-import backgrond from '../../public/background.webp'
-import smallBackgrond from '../../public/smallBackground.webp'
-import Image from 'next/image'
 import Btn from './Btn'
 
 const Hero = () => {
   return (
     <section
-      className='flex flex-col  h-screen w-screen '
+      className='flex flex-col h-screen w-screen md:bg-largBg bg-smallBg bg-cover '
       id='Hero'>
-      {/* --------------- background --------------- */}
-      <Image
-        src={backgrond}
-        width={1920}
-        height={923}
-        alt='deco design back ground'
-        className='-z-50 absolute'
-      />
-
       {/* ------------ Title &Subtitle ------------- */}
       <div className='flex flex-col gap-12 justify-center items-center pt-64'>
         <div className='flex flex-col justify-center items-center gap-4'>
