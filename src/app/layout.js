@@ -18,7 +18,7 @@ const lemonada = Lemonada({
 
 // metadata -----------------------------
 export const metadata = {
-  title: 'ديكو ديزاين',
+  title: 'ديكو ديزاين | Deco Design',
   description: 'تصميم ديكور ثلاثي الابعاد ، وتشطيبات متكاملة.',
 
 }
