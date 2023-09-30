@@ -14,7 +14,7 @@ const Nav = () => {
 
   return (
     <>
-      <header className='lg:py-2  py-1 lg:px-16 px8 w-full fixed z-50 bg-opacity-80  bg-darkblack'>
+      <header className='py-2  lg:px-16 px-8 w-full fixed z-50 bg-opacity-80  bg-darkblack'>
         <nav className='flex justify-between items-center lg:gap-8'>
           {/* ----------------- logo ---------------- */}
           <Link href='/'>
