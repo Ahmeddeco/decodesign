@@ -16,7 +16,7 @@ import goldenArrow from '/public/Arrow 1.webp'
 import cardImage1 from '/public/Rectangle 23.webp'
 import cardImage2 from '/public/Rectangle 21.webp'
 import cardImage3 from '/public/Rectangle 19.webp'
-import Logo from '/public/logo.ico'
+import Logo from '/public/logo.webp'
 import { TbBrandFacebook, TbBrandInstagram, TbBrandWhatsapp, TbBrandBehance } from 'react-icons/tb'
 // import { TfiClose } from 'react-icons/tfi'
 

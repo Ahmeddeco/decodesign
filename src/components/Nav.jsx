@@ -14,18 +14,17 @@ const Nav = () => {
 
   return (
     <>
-      <header className='py-2  lg:px-16 px-8 w-full fixed z-50 bg-opacity-80  bg-darkblack'>
+      <header className='py-2 lg:px-16 px-8 w-full fixed z-50 bg-opacity-80  bg-darkblack'>
         <nav className='flex justify-between items-center lg:gap-8'>
           {/* ----------------- logo ---------------- */}
-          <Link href='/'>
-            <Image
-              src={logo.src}
-              width={48}
-              height={64}
-              alt={logo.alt}
-              className='lg:w-12 lg:h-16 w-8 h-10 '
-            />
-          </Link>
+          <div className=''>
+            <Link href='/'>
+              <Image
+                src={logo.src}
+                alt={logo.alt}
+              />
+            </Link>
+          </div>
 
           {/* -------------- nav links -------------- */}
 

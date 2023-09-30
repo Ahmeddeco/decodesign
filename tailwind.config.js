@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'largBg': "url('/largBg.png')",
-        'smallBg': "url('/smallBg.png')",
+        'largBg': "url('/largBg.webp')",
+        'smallBg': "url('/smallBg.webp')",
       },
       fontFamily: {
         vazirmatn: ['var(--font-vazirmatn)'],
