@@ -14,7 +14,7 @@ const NavLinks = () => {
           <ul
             key={name}
             className=''>
-            <li className=' text-Black10 hover:text-gold font-extrabold text-xl duration-300 scroll-smooth'>
+            <li className=' text-gold hover:text-Black10 font-extrabold text-xl duration-300 scroll-smooth'>
               <Link
                 className='cursor-pointer'
                 to={target}

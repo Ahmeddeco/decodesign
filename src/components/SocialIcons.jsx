@@ -10,7 +10,7 @@ const SocialIcons = () => {
             <ul
               key={socialName}
               className=''>
-              <li className='duration-300 scroll-smooth text-2xl lg:text-Black10 text-gold lg:hover:text-gold hover:text-Black10'>
+              <li className='duration-300 scroll-smooth text-2xl text-gold  hover:text-Black10'>
                 <Link
                   href={url}
                   target='_blank'

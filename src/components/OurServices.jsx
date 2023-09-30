@@ -5,20 +5,24 @@ import Btn from './Btn'
 const OurServices = () => {
   return (
     <section
-      className='container '
+      className='container  '
       id='OurServices'>
-      <div className='flex gap-x-12'>
+      <div className='flex lg:flex-row flex-col gap-x-12'>
         {/* ____________________ text ____________________ */}
-        <div className='flex flex-col justify-center items-start gap-8 w-4/12'>
-          <h3 className='h3 font-lemonada text-gold'>{services.title}</h3>
-          <p className='p font-vazirmatn text-Black5'>{services.p}</p>
+        <div className='flex flex-col justify-center lg:items-start items-center gap-8 lg:w-4/12 w-full'>
+          <h3 className='h3 font-lemonada text-gold '>{services.title}</h3>
+          <p className='p font-vazirmatn text-Black5 lg:text-start text-center'>
+            {services.p}
+          </p>
           <Btn
             title={services.buttonText}
             url='/services'
           />
         </div>
         {/* __________________ carousel __________________ */}
-        <div className='flex w-8/12'></div>
+        <div className='flex items-center justify-center lg:w-8/12 w-full'>
+          <h3 className='h3'>carousel</h3>
+        </div>
       </div>
     </section>
   )
