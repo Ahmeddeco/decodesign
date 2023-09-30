@@ -14,15 +14,16 @@ const Nav = () => {
 
   return (
     <>
-      <header className='py-2 px-16 w-full fixed z-50 bg-opacity-80  bg-darkblack'>
+      <header className='lg:py-2  py-1 lg:px-16 px8 w-full fixed z-50 bg-opacity-80  bg-darkblack'>
         <nav className='flex justify-between items-center lg:gap-8'>
           {/* ----------------- logo ---------------- */}
           <Link href='/'>
             <Image
               src={logo.src}
               width={48}
-              height={62}
+              height={64}
               alt={logo.alt}
+              className='lg:w-12 lg:h-16 w-8 h-10 '
             />
           </Link>
 
@@ -31,12 +32,14 @@ const Nav = () => {
           <NavLinks />
 
           {/* ------------- Social Icons ------------ */}
-          <SocialIcons />
+          <div className='hidden lg:block'>
+            <SocialIcons />
+          </div>
 
           {/* ------------- close & open ------------ */}
           <div
             onClick={() => setMobileNav(!mobileNav)}
-            className='text-4xl text-gold z-50 lg:hidden block'>
+            className='lg:text-4xl text-2xl text-gold z-50 lg:hidden block'>
             {mobileNav ? <TfiClose /> : <TfiMenu />}
           </div>
         </nav>
