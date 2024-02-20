@@ -2,6 +2,7 @@ import './globals.css'
 import { Vazirmatn, Lemonada } from 'next/font/google'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
+import { Providers } from './providers'
 
 // fonts --------------------------------
 const vazirmatn = Vazirmatn({
