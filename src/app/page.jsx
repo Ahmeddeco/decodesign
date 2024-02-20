@@ -8,17 +8,17 @@ import WorkProgress from '@/components/WorkProgress'
 import { Fragment } from 'react'
 
 const Home = () => {
-  return (
-    <Fragment>
-      <Hero />
-      <AboutUs />
-      <OurServices />
-      <WorkProgress />
-      <OurWorks />
-      <Testimonials />
-      <OurLatestWorks />
-    </Fragment>
-  )
+	return (
+		<Fragment>
+			<Hero />
+			<AboutUs />
+			<OurServices />
+			<WorkProgress />
+			<OurWorks />
+			<Testimonials />
+			<OurLatestWorks />
+		</Fragment>
+	)
 }
 
 export default Home
