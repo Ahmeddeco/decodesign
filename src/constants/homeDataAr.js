@@ -1,29 +1,12 @@
-import aboutImg from ''
-import servImg1 from '/public/Rectangle 1.webp'
-import servImg2 from '/public/Rectangle 2.webp'
-import servImg3 from '/public/Rectangle 3.webp'
-import workImg from '/public/Rectangle 7.webp'
-import ourWorkImg1 from '/public/Rectangle 10.webp'
-import ourWorkImg2 from '/public/Rectangle 11.webp'
-import ourWorkImg3 from '/public/Rectangle 12.webp'
-import ourWorkImg4 from '/public/Rectangle 13.webp'
-import ourWorkImg5 from '/public/Rectangle 14.webp'
-import ourWorkImg6 from '/public/Rectangle 15.webp'
-import testimonialsImageMain from '/public/Group 5.webp'
-import testimonialsAvatarImage from '/public/Frame 38.webp'
-import latestWorksMainImage from '/public/Group 1.webp'
-import goldenArrow from '/public/Arrow 1.webp'
-import cardImage1 from '/public/Rectangle 23.webp'
-import cardImage2 from '/public/Rectangle 21.webp'
-import cardImage3 from '/public/Rectangle 19.webp'
-import Logo from '/public/logo.webp'
-import {
-	TbBrandFacebook,
-	TbBrandInstagram,
-	TbBrandWhatsapp,
-	TbBrandBehance,
-} from 'react-icons/tb'
-// import { TfiClose } from 'react-icons/tfi'
+import facbookicon from '/public/icons/Facebook.webp'
+import instagramicon from '/public/icons/instagram.webp'
+import whatsappicon from '/public/icons/whatsapp.webp'
+import behanceicon from '/public/icons/Behance .webp'
+import Logo from '/public/icons/logo.webp'
+import aboutImg from '/public/images/home/about us.webp'
+import servicesImg from '/public/images/home/our service photo.webp'
+import workProcessImg from '/public/images/home/our work process photo.webp'
+import ourWorkImg from '/public/images/home/our works.webp'
 
 export const logo = {
 	src: Logo,
@@ -34,56 +17,54 @@ export const navigation = [
 	{
 		name: 'الرئيسية',
 		target: 'Hero',
+		url: '/',
+		id: '#hero',
 	},
 	{
 		name: 'من نحن',
 		target: 'AboutUs',
+		url: '/aboutus',
+		id: '#aboutus',
 	},
 	{
 		name: 'خدماتنا',
 		target: 'OurServices',
+		url: '/ourServices',
+		id: '#ourServices',
 	},
 	{
 		name: 'مراحل العمل',
-		target: 'WorkProgress',
+		target: 'WorkProcess',
+		url: '/workprocess',
+		id: '#workprocess',
 	},
 	{
-		name: 'اعمالنا',
+		name: 'أعمالنا',
 		target: 'OurWorks',
-	},
-	{
-		name: 'التوصيات',
-		target: 'Testimonials',
-	},
-	{
-		name: 'آخر أعمالنا',
-		target: 'OurLatestWorks',
+		url: '/ourworks',
+		id: '#ourworks',
 	},
 ]
-// export const BurgerIcon =
-//   '<TbMenu2 />'
-// export const closeIcon =
-//   '<TfiClose />'
 
 export const social = [
 	{
 		socialName: 'facbook',
-		icon: <TbBrandFacebook />,
+		icon: facbookicon,
 		url: 'https://www.facebook.com/profile.php?id=100085078434274',
 	},
 	{
 		socialName: 'instagram',
-		icon: <TbBrandInstagram />,
+		icon: instagramicon,
 		url: 'https://www.instagram.com/decodesigndecodesign/',
 	},
 	{
 		socialName: 'whatsapp',
-		icon: <TbBrandWhatsapp />,
+		icon: whatsappicon,
 		url: 'https://wa.me/+201152640142',
 	},
 	{
 		socialName: 'Behance',
-		icon: <TbBrandBehance />,
+		icon: behanceicon,
 		url: 'https://www.behance.net/ahmeddesigner1981',
 	},
 ]
@@ -118,46 +99,30 @@ export const state = [
 
 export const services = {
 	title: 'خدماتنا',
-	p: 'التصميمات الداخلية الفاخرة هي عنوان لاعمالنا. نقدم مستوي راقي مميز من التصميمات الداخلية بواقعية فريدة. تصميم وتنفيذ جميع التشطيبات بجودة مثالية وفي الوقت الزمني المحدد. تصميم وتنفيذ جميع اعمال المفروشات والموبيليا الراقية .',
+	p: 'نقوم بعمل كل التصميمات الديكورية الداخلية ثلاثية الابعاد وبدقة وجودة وواقعية فائقة نقوم بحل كل المشاكل التي تواجه تخطيط مساحتك ونصممها لك لتحظى بحياة مريحة وسعيدة .',
 	buttonText: 'المزيد',
-	images: [
-		{
-			img1Alt: 'modern bed room',
-			img1: servImg1,
-			imgTitle: 'غرفة نوم',
-		},
-		{
-			img2Alt: 'modern dinning room',
-			img2: servImg2,
-			imgTitle: 'سفرة',
-		},
-		{
-			img3Alt: 'modern kitchen',
-			img3: servImg3,
-			imgTitle: 'مطبخ',
-		},
-	],
+	image: servicesImg,
 }
 
 export const workProcess = {
 	mainTitle: 'مراحل العمل',
-	image: workImg,
+	image: workProcessImg,
 	imgAlt: 'modern dinning room',
 	subTitle: [
 		{
 			num: '1',
-			title: 'المعاينة والتخطيط',
-			p: 'نحن نتعرف على احتياجاتك وميزانيتك وجدولك الزمني، ثم نصمم تصميم اولي واخذ الموافقة عليه للبدء في التصميم النهائي.',
+			title: 'الإستكشاف والتخطيط',
+			p: 'نقوم بالتعرف على المكان ونحدد احتياجاتك وميزانيتك والمشاكل الموجودة بالمكان ووضع تصور عام للحلول.',
 		},
 		{
 			num: '2',
 			title: 'التصميم و التطوير',
-			p: 'نحن نبتكر مفاهيم التصميم، ونحسنها من خلال مدخلاتك، نحدد المواد اللازمة للتشطيب مع تقديرات التكلفة النهائية.',
+			p: 'نقوم بإنشاء مفاهيم التصميم وتحسينها باستخدام مدخلاتك واختيار الخامات اللازمة و تقدير التكلفة.',
 		},
 		{
 			num: '3',
-			title: 'جعل التصميم حقيقة',
-			p: 'يتولى فريقنا عملية الإنشاء ويضمن الجودة في التنفيذ . وكذلك التنفيذ موافقا للتصميم المتفق عليه.',
+			title: 'التنفيذ على أرض الواقع',
+			p: 'يبدأ فريقنا المؤهل في التنفيذ طبقا للخطة و التصميم المحدد , وإخراج المظهر النهائي كما هو في التصميم وبجودة متناهية حسب الاتفاق المبرم .',
 		},
 	],
 }
@@ -171,101 +136,18 @@ export const ourWork = {
 		'دوبلكس دبي',
 		'فيلا القاهرة الجديدة',
 	],
-	images: [
-		{ img1: ourWorkImg1 },
-		{ img2: ourWorkImg2 },
-		{ img3: ourWorkImg3 },
-		{ img4: ourWorkImg4 },
-		{ img5: ourWorkImg5 },
-		{ img6: ourWorkImg6 },
-	],
-}
-
-export const testimonial = {
-	mainTitle: 'التوصيات',
-	mianImage: testimonialsImageMain,
-	alt: 'غرفة صالون مودرن',
-	card: [
-		{
-			avatarImage: testimonialsAvatarImage,
-			avatarName: 'ا/ محمد عبدالفتاح',
-			avatarSubTitle: 'التجمع الخامس, مصر',
-			avatarParagraph:
-				'أحمد ممتاز للغاية في العمل معه ومليء بالنشاط والحيوية والأفكار الرائعة.  إنه يعرف كيف يستمع إليك ويحول هذا الى تصميمات رائعة متوافقة مع إتجاهات التصميم الحديثة.',
-		},
-		{
-			avatarImage: testimonialsAvatarImage,
-			avatarName: 'م/ وليد نبيل',
-			avatarSubTitle: ' العاشر من رمضان, مصر',
-			avatarParagraph:
-				'أحمد ممتاز للغاية في العمل معه ومليء بالنشاط والحيوية والأفكار الرائعة.  إنه يعرف كيف يستمع إليك ويحول هذا الى تصميمات رائعة متوافقة مع إتجاهات التصميم الحديثة.',
-		},
-		{
-			avatarImage: testimonialsAvatarImage,
-			avatarName: 'د/ محمد عبدالعزيز',
-			avatarSubTitle: 'التجمع الخامس, مصر',
-			avatarParagraph:
-				'أحمد ممتاز للغاية في العمل معه ومليء بالنشاط والحيوية والأفكار الرائعة.  إنه يعرف كيف يستمع إليك ويحول هذا الى تصميمات رائعة متوافقة مع إتجاهات التصميم الحديثة.',
-		},
-	],
-}
-
-export const latestWorks = {
-	mainImage: latestWorksMainImage,
-	arrow: goldenArrow,
-	subTitle: [
-		'نصائح وإرشادات للتصميم الداخلي',
-		'أعمالنا في التصميم الداخلي',
-		'أحدث مدوناتنا',
-	],
-	card: [
-		{
-			img: cardImage1,
-			mainTitle: 'المعرض | تصميم داخلي',
-			title: 'حمام مودرن',
-			subTitle: 'اضائة حارة',
-		},
-		{
-			img: cardImage2,
-			mainTitle: 'المعرض | تصميم داخلي',
-			title: 'غرفة معيشة مودرن',
-			subTitle: 'اضائة محيطية',
-		},
-		{
-			img: cardImage3,
-			mainTitle: 'المعرض | تصميم داخلي',
-			title: 'غرفة معيشة مودرن',
-			subTitle: 'اضائة محيطية',
-		},
-	],
+	image: ourWorkImg,
 }
 
 export const footer = {
-	mainParagraph:
-		'أن فكرة البساطة في التصميم تكمن في تصميم مساحات باقل قدر من التكلفة معوكميات الاثاث الذي يلبي احتياجات العميل مع مراعاة خلق مساحات فارغة في الفراغ الداخلى للمكان لتوسيع الافق وايجاد مساحات تساعد على تنفس المكان والشعور بالرحابة والسعة . ',
+	mainParagraph: 'البساطة والرقي هما عنوان تصميماتنا',
 	ourServices: {
 		title: 'خدماتنا',
-		service: [
-			'التصميم الداخلي',
-			'الانشاءات',
-			'الاعمال الهندسية',
-			'تصميم الاثاث',
-		],
+		service: ['التصميم الداخلي', 'التشطيبات المتكاملة', 'تصميم الاثاث'],
 	},
-	menu: {
-		title: 'القائمة',
-		service: [
-			'الرئيسية',
-			'من نحن',
-			'خدماتنا',
-			'المشروعات',
-			'خطوات العمل',
-			'آخر أعمالنا',
-		],
-	},
+
 	communication: {
 		title: 'التواصل',
-		paragraph:
-			'تابعنا على وسائل التواصل الاجتماعي حتى لا تفوت المشاريع الجديدة المذهلة المصممة لعملائنا حول العالم.',
+		socialIcon: social,
 	},
 }
