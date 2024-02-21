@@ -20,9 +20,9 @@ const config = {
 			},
 
 			colors: {
-				gold: '#B68944',
-				darkblack: '#161616',
-				Dark_Gray: '#2C2C2A',
+				gold: '#F5A524',
+				darkblack: '#181716',
+				Dark_Gray: '#242421',
 				Black75: '#3C3C3C',
 				Black50: '#9C9B9B',
 				Black25: '#B6B6B6',
