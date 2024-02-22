@@ -7,6 +7,21 @@ import aboutImg from '/public/images/home/about us.webp'
 import servicesImg from '/public/images/home/our service photo.webp'
 import workProcessImg from '/public/images/home/our work process photo.webp'
 import ourWorkImg from '/public/images/home/our works.webp'
+import japanidi1 from '/public/images/our works/japanidi/japanidi 1.webp'
+import japanidi2 from '/public/images/our works/japanidi/japanidi 2.webp'
+import japanidi3 from '/public/images/our works/japanidi/japanidi 3.webp'
+import glam1 from '/public/images/our works/Glam living/Glam living 1.webp'
+import glam2 from '/public/images/our works/Glam living/Glam living 2.webp'
+import glam3 from '/public/images/our works/Glam living/Glam living 3.webp'
+import sea1 from '/public/images/our works/sea studio/sea studio 1.webp'
+import sea2 from '/public/images/our works/sea studio/sea studio 2.webp'
+import sea3 from '/public/images/our works/sea studio/sea studio 3.webp'
+import yellowApartment1 from '/public/images/our works/yellow apartment/yellow apartment 1.webp.webp'
+import yellowApartment2 from '/public/images/our works/yellow apartment/yellow apartment 2.webp'
+import yellowApartment3 from '/public/images/our works/yellow apartment/yellow apartment 3.webp'
+import blueApartment1 from '/public/images/our works/blue apartment/blue apartment 1.webp'
+import blueApartment2 from '/public/images/our works/blue apartment/blue apartment 2.webp'
+import blueApartment3 from '/public/images/our works/blue apartment/blue apartment 3.webp'
 
 export const logo = {
 	src: Logo,
@@ -151,3 +166,113 @@ export const footer = {
 		socialIcon: social,
 	},
 }
+
+//? ########## ourWorksPage ##########
+
+export const ourWorksPage = [
+	{
+		title: 'ريسبشن و مطبخ جابانيدي',
+		location: 'القاهرة الجديدة - مصر',
+		paragraph:
+			'يتميز التصميم الجابانيدي بالبساطة واستخدام الألوان الترابية مع لمسة بسيطة من الألوان الحارة , واستخدام الاخشاب الطبيعية بشكل بسيط وتشطيب متقن .',
+		btnText: 'مشاهدة العمل كاملا',
+		images: [
+			{
+				src: japanidi1,
+				alt: 'japanidi',
+			},
+			{
+				src: japanidi2,
+				alt: 'japanidi',
+			},
+			{
+				src: japanidi3,
+				alt: 'japanidi',
+			},
+		],
+	},
+	{
+		title: 'شقة مودرن بأسلوب الفخامة',
+		location: 'مدينة السادات - مصر',
+		paragraph:
+			'يتميز هذا الأسلوب باستخدام الوان محايدة مثل البيج الفاتح مع لمسات من الخشب المصبع بلون بني بيور ، والاهتمام بالتشطيب الجيد والخامات العالية والخطوط الواضحة والمستقيمة .',
+		btnText: 'مشاهدة العمل كاملا',
+		images: [
+			{
+				src: glam1,
+				alt: 'glam',
+			},
+			{
+				src: glam2,
+				alt: 'glam',
+			},
+			{
+				src: glam3,
+				alt: 'glam',
+			},
+		],
+	},
+	{
+		title: 'استوديو على البحر',
+		location: 'كاليه - فرنسا',
+		paragraph:
+			'صمم هذا المكان ليلائم الأماكن الباردة لشمال أوروبا .حيث الألوان الفاتحة لتعكس اشعة الشمس القليلة ، وكذلك وجود الوان حارة لكسر الألوان الباهتة في البيئة الخارجية وزيادة الإحساس بالدفء، وكذلك الاستعانة بمرآة كبيرة لتساعد على انتشار اشعة الضوء ولإعطاء الإحساس بكبر المكان.',
+		btnText: 'مشاهدة العمل كاملا',
+		images: [
+			{
+				src: sea1,
+				alt: 'sea apartment',
+			},
+			{
+				src: sea2,
+				alt: 'sea apartment',
+			},
+			{
+				src: sea3,
+				alt: 'sea apartment',
+			},
+		],
+	},
+	{
+		title: 'شقة مودرن صفراء',
+		location: 'مدينة نصر - مصر',
+		paragraph:
+			'يعتبر استخدام اللون الأصفر من الأشياء التي تساعد العميل على الشعور بالدفء والطاقة ويرفع من مستوى الروح المعنوية والابداع ، يقوم أيضا بتحفيز عمليات التمثيل الغذائي ولكن يجب توخي الحذر عند استخدام هذا اللون حيث يجب اختيار درجات اقل تشبعا.',
+		btnText: 'مشاهدة العمل كاملا',
+		images: [
+			{
+				src: yellowApartment1,
+				alt: 'yellow Apartment',
+			},
+			{
+				src: yellowApartment2,
+				alt: 'yellow Apartment',
+			},
+			{
+				src: yellowApartment3,
+				alt: 'yellow Apartment',
+			},
+		],
+	},
+	{
+		title: 'شقة مودرن  بالأزرق البترولي',
+		location: 'صحم - عمان',
+		paragraph:
+			'استخدام هذه الدرجة من الأزرق يعطي إحساس بالرحابة والسعة والهدوء والتأمل لذلك ينصح باستخدامه لمن يحب الجو الهادئ ليتغلب على التوتر العام في البيئة المحيطة .',
+		btnText: 'مشاهدة العمل كاملا',
+		images: [
+			{
+				src: blueApartment1,
+				alt: 'blue apartment',
+			},
+			{
+				src: blueApartment2,
+				alt: 'blue apartment',
+			},
+			{
+				src: blueApartment3,
+				alt: 'blue apartment',
+			},
+		],
+	},
+]
