@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 @layer base {
-	body {
+	/* body {
 		@apply text-Black5 bg-darkblack;
-	}
+	} */
 
 	.p {
 		@apply font-bold text-xl;
@@ -35,6 +35,9 @@
 	}
 
 	.container {
-		@apply mx-auto min-h-screen flex justify-center items-center lg:py-0 py-8 px-4 lg:px-0;
+		@apply mx-auto min-h-screen;
+	}
+	section {
+		@apply flex justify-between items-center lg:py-0 py-8 px-4 lg:px-0;
 	}
 }

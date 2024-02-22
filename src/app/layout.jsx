@@ -1,8 +1,8 @@
 import './globals.css'
 import { Vazirmatn, Lemonada } from 'next/font/google'
-import Nav from '@/components/Nav'
-import Footer from '@/components/Footer'
 import { Providers } from './providers'
+import NavBar from '@/components/NavBar'
+import Footer from '@/components/Footer'
 
 // fonts --------------------------------
 const vazirmatn = Vazirmatn({
@@ -39,10 +39,10 @@ export default function RootLayout({ children }) {
 			dir='rtl'
 			className={`${lemonada.variable} ${vazirmatn.variable}`}
 		>
-			<body>
+			<body className=''>
 				<Providers>
-					<main>
-						<Nav />
+					<main className=' container'>
+						<NavBar />
 						{children}
 						<Footer />
 					</main>
