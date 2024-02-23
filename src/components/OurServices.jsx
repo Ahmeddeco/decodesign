@@ -3,7 +3,7 @@ import React from 'react'
 const OurServices = () => {
 	return (
 		<section
-			className='bg-red-500'
+			className='bg-background'
 			id='ourServices'
 		>
 			OurServices
