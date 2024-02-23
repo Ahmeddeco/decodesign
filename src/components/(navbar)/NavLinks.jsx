@@ -4,25 +4,23 @@ import { Link } from 'react-scroll'
 
 const NavLinks = () => {
 	return (
-		<div className='lg:flex items-center justify-between gap-10 hidden'>
+		<ul className='lg:flex items-center justify-between gap-10 hidden'>
 			{navigation.map(({ name, id, target, url }) => (
-				<ul
+				<li
 					className=''
 					key={id}
 				>
-					<li className=''>
-						<Link
-							className='cursor-pointer text-2xl font-vazirmatn'
-							to={id}
-							smooth={true}
-							duration={1200}
-						>
-							{name}
-						</Link>
-					</li>
-				</ul>
+					<Link
+						className='cursor-pointer text-2xl font-vazirmatn'
+						to={id}
+						smooth={true}
+						duration={1200}
+					>
+						{name}
+					</Link>
+				</li>
 			))}
-		</div>
+		</ul>
 	)
 }
 
