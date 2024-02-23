@@ -13,8 +13,8 @@ const Nav = () => {
 	const [mobileNav, setMobileNav] = useState(false)
 
 	return (
-		<header className='fixed z-50  bg-background/80'>
-			<nav className='w-screen flex  items-center justify-between py-2 px-4 lg:px-52 lg:py-10 mx-auto'>
+		<header className='fixed z-50  bg-background/80 '>
+			<nav className='w-screen flex  items-center justify-between py-2 px-4 lg:px-52 lg:py-6 mx-auto'>
 				{/*--------- logo-------- */}
 				<Link href='/'>
 					<Image
