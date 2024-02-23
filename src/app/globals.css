@@ -15,11 +15,11 @@
 	}
 
 	.h2 {
-		@apply font-bold text-[64px];
+		@apply font-semibold text-[64px];
 	}
 
 	.h3 {
-		@apply font-bold text-[45px];
+		@apply font-medium text-[45px];
 	}
 
 	.h4 {

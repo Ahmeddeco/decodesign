@@ -10,14 +10,16 @@ const NavLinks = () => {
 					className=''
 					key={id}
 				>
-					<Link
-						className='cursor-pointer text-2xl font-vazirmatn'
-						to={id}
-						smooth={true}
-						duration={1200}
-					>
-						<li className=''>{name}</li>
-					</Link>
+					<li className=''>
+						<Link
+							className='cursor-pointer text-2xl font-vazirmatn'
+							to={id}
+							smooth={true}
+							duration={1200}
+						>
+							{name}
+						</Link>
+					</li>
 				</ul>
 			))}
 		</div>
