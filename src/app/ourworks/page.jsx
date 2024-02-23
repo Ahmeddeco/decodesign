@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ourWorks = () => {
-	return <div>ourWorks</div>
+	return <section>ourWorks</section>
 }
 
 export default ourWorks
