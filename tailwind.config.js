@@ -11,7 +11,7 @@ const config = {
 	theme: {
 		extend: {
 			backgroundImage: {
-				largBg: "url('/largBg.webp')",
+				largBg: "url('/images/home/largBg.webp')",
 				smallBg: "url('/smallBg.webp')",
 			},
 			fontFamily: {
