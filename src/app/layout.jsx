@@ -19,8 +19,8 @@ const lemonada = Lemonada({
 
 // metadata -----------------------------
 export const metadata = {
-	title: 'deco design',
-	description: 'Deco design 3d studio ',
+	title: 'Deco Design',
+	description: 'Deco Design is a 3d studio for interiors and decor.',
 	metadataBase: new URL('https://acme.com'),
 	alternates: {
 		canonical: '/',
