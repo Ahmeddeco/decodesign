@@ -3,7 +3,7 @@ import React from 'react'
 const WorkProcess = () => {
 	return (
 		<section
-			className='bg-background'
+			className='bg-boxesBg'
 			id='workprocess'
 		>
 			WorkProcess

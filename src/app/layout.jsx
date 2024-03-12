@@ -1,6 +1,5 @@
 import './globals.css'
 import { Vazirmatn, Lemonada } from 'next/font/google'
-import { Providers } from './providers'
 import Footer from '@/components/Footer'
 import Nav from '@/components/(navbar)/Nav'
 
@@ -41,14 +40,10 @@ export default function RootLayout({ children }) {
 			dir='rtl'
 			className={`${lemonada.variable} ${vazirmatn.variable}`}
 		>
-			<body className='dark text-foreground bg-background'>
-				<Providers>
-					<main className=' container '>
-						<Nav />
-						{children}
-						<Footer />
-					</main>
-				</Providers>
+			<body className='dark text-Black10 bg-darkblack'>
+				<Nav />
+				<main className='  '>{children}</main>
+				<Footer />
 			</body>
 		</html>
 	)

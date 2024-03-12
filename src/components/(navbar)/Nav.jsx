@@ -11,10 +11,11 @@ import Link from 'next/link'
 
 const Nav = () => {
 	const [mobileNav, setMobileNav] = useState(false)
+	const handleClick = () => setMobileNav(!mobileNav)
 
 	return (
-		<header className='fixed z-50  bg-background/80 '>
-			<nav className='w-screen flex  items-center justify-between py-2 px-4 lg:px-52 lg:py-6 mx-auto'>
+		<header className='fixed z-50  bg-background/90 '>
+			<nav className='w-screen flex  items-center justify-between py-4 px-8  xl:py-4 xl:px-20  mx-auto'>
 				{/*--------- logo-------- */}
 				<Link href='/'>
 					<Image
@@ -28,15 +29,15 @@ const Nav = () => {
 				<NavLinks />
 
 				{/*--------- Social-------- */}
-				<div className='lg:block hidden'>
+				<div className='xl:block hidden'>
 					<SocialIcons />
 				</div>
 
 				{/*--------- Menu Icon -------- */}
 
 				<div
-					onClick={() => setMobileNav(!mobileNav)}
-					className='lg:text-4xl text-2xl text-gold z-50 lg:hidden block'
+					onClick={handleClick}
+					className='xl:text-4xl text-lg text-gold z-50 xl:hidden block'
 				>
 					{mobileNav ? <TfiClose /> : <TfiMenu />}
 				</div>
@@ -45,9 +46,11 @@ const Nav = () => {
 			<div
 				className={`${
 					mobileNav ? 'left-0' : '-left-full'
-				} lg:hidden fixed bottom-0 w-screen transition-all gap-y-4 bg-darkblack mt-8`}
+				} xl:hidden fixed bottom-0 w-screen transition-all gap-y-4 bg-darkblack mt-8`}
+				onClick={handleClick}
 			>
-				<NavMobile />
+				{/*---------Mobile Nav-------- */}
+				<NavMobile handleClick={handleClick} />
 			</div>
 		</header>
 	)

@@ -7,34 +7,37 @@
 	} */
 
 	.p {
-		@apply font-bold text-xl;
+		@apply xl:font-semibold font-thin;
 	}
 
 	.h1 {
-		@apply font-bold text-[90px];
+		@apply xl:font-semibold font-thin text-center text-[90px];
 	}
 
 	.h2 {
-		@apply font-semibold text-[64px];
+		@apply xl:font-semibold font-thin text-center text-[64px];
 	}
 
 	.h3 {
-		@apply font-medium text-[45px];
+		@apply xl:font-medium font-thin text-center text-[45px];
 	}
 
 	.h4 {
-		@apply text-[32px];
+		@apply xl:text-[32px] font-thin text-center;
 	}
 
 	.h5 {
-		@apply text-[22px];
+		@apply xl:text-[22px];
 	}
 
 	.h6 {
-		@apply text-[16px];
+		@apply xl:text-[16px];
 	}
 
 	section {
-		@apply flex justify-center items-center min-h-screen mx-auto w-screen;
+		@apply flex justify-center items-center min-h-screen h-auto mx-auto w-full xl:my-20 xl:px-20 my-8 px-4;
+	}
+	.bg-box {
+		@apply bg-boxesBg  bg-contain;
 	}
 }

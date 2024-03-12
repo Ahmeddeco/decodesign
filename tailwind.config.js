@@ -11,8 +11,9 @@ const config = {
 	theme: {
 		extend: {
 			backgroundImage: {
-				largBg: "url('/images/home/largBg.webp')",
+				largBg: "url('/images/home/background dark.webp')",
 				smallBg: "url('/smallBg.webp')",
+				boxesBg: "url('/images/home/boxes.webp')",
 			},
 			fontFamily: {
 				vazirmatn: ['var(--font-vazirmatn)'],
