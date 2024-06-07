@@ -1,14 +1,13 @@
-import { nextui } from '@nextui-org/react'
-
+import daisyui from "daisyui"
 /** @type {import('tailwindcss').Config} */
 const config = {
-	content: [
-		'./src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-		'./src/components/**/*.{js,ts,jsx,tsx,mdx}',
-		'./src/app/**/*.{js,ts,jsx,tsx,mdx}',
-		'./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}',
-	],
-	theme: {
+  content: [
+		"./src/**/*.{js,ts,jsx,tsx,mdx}",
+],
+	theme: { 
+		container: {
+		center: true,
+	},
 		extend: {
 			backgroundImage: {
 				largBg: "url('/images/home/background dark.webp')",
@@ -21,14 +20,14 @@ const config = {
 			},
 
 			colors: {
-				gold: '#F5A524',
-				darkblack: '#181716',
-				Dark_Gray: '#242421',
-				Black75: '#3C3C3C',
-				Black50: '#9C9B9B',
-				Black25: '#B6B6B6',
-				Black10: '#CDCCCC',
-				Black5: '#D4D4D3',
+				// gold: '#F5A524',
+				// darkblack: '#181716',
+				// Dark_Gray: '#242421',
+				// Black75: '#3C3C3C',
+				// Black50: '#9C9B9B',
+				// Black25: '#B6B6B6',
+				// Black10: '#CDCCCC',
+				// Black5: '#D4D4D3',
 			},
 		},
 		screens: {
@@ -38,7 +37,18 @@ const config = {
 			xl: '1300px',
 		},
 	},
-	darkMode: 'class',
-	plugins: [nextui()],
+	plugins: [daisyui],
+	daisyui: {
+    themes: [{
+			mytheme: {
+				"primary": "#181716",
+				"secondary": "#F5A524",
+				"accent": "#419DF0",
+				"neutral": "#3C3C3C",
+				"base-100": "#D4D4D3",
+			},
+			},
+		],
+  },
 }
 export default config

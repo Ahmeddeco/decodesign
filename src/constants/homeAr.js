@@ -121,8 +121,9 @@ export const state = [
 export const services = {
 	title: 'خدماتنا',
 	p: 'نقوم بعمل كل التصميمات الديكورية الداخلية ثلاثية الابعاد وبدقة وجودة وواقعية فائقة نقوم بحل كل المشاكل التي تواجه تخطيط مساحتك ونصممها لك لتحظى بحياة مريحة وسعيدة .',
-	buttonText: 'المزيد',
-	image: servicesImg,
+	img: servicesImg,
+	buttonText: 'تعرف على المزيد',
+	buttonLink: '/ourworks',
 }
 
 export const workProcess = {

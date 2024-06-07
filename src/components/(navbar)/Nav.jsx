@@ -14,7 +14,7 @@ const Nav = () => {
 	const handleClick = () => setMobileNav(!mobileNav)
 
 	return (
-		<header className='fixed z-50  bg-background/90 '>
+		<header className='fixed z-50  bg-primary/95'>
 			<nav className='w-screen flex  items-center justify-between py-4 px-8  xl:py-4 xl:px-20  mx-auto'>
 				{/*--------- logo-------- */}
 				<Link href='/'>

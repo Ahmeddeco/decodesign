@@ -11,7 +11,7 @@ const NavLinks = () => {
 					key={id}
 				>
 					<Link
-						className='cursor-pointer text-lg font-vazirmatn'
+						className='cursor-pointer text-base-100 text-2xl font-bold font-vazirmatn'
 						to={id}
 						smooth={true}
 						duration={1200}

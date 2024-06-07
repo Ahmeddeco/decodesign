@@ -40,9 +40,9 @@ export default function RootLayout({ children }) {
 			dir='rtl'
 			className={`${lemonada.variable} ${vazirmatn.variable}`}
 		>
-			<body className='dark text-Black10 bg-darkblack'>
+			<body className='dark text-Black10 bg-primary '>
 				<Nav />
-				<main className='  '>{children}</main>
+				<main className=''>{children}</main>
 				<Footer />
 			</body>
 		</html>

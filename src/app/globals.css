@@ -11,11 +11,11 @@
 	}
 
 	.h1 {
-		@apply xl:font-semibold font-thin text-center text-[90px];
+		@apply xl:font-semibold font-thin text-center text-[90px] ;
 	}
 
 	.h2 {
-		@apply xl:font-semibold font-thin text-center text-[64px];
+		@apply xl:font-semibold font-thin text-center text-[64px] ;
 	}
 
 	.h3 {
