@@ -35,7 +35,7 @@
 	}
 
 	section {
-		@apply flex justify-center items-center min-h-screen h-auto mx-auto w-full xl:my-20 xl:px-20 my-8 px-4;
+		@apply flex justify-center items-center min-h-screen h-auto mx-auto w-full ;
 	}
 	.bg-box {
 		@apply bg-boxesBg  bg-contain;
