@@ -11,8 +11,11 @@ const AboutUs = () => {
 			{/* text */}
 			<div className='md:w-4/12 w-full'>
 				<div className='flex-col flex gap-9 justify-center xl:items-start items-center'>
-					<h2 className='h2 text-secondary font-lemonada font-medium'>
-						{about.title}
+					<h2 className='h2 text-base-100 font-lemonada font-medium'>
+						{about.title}{' '}
+						<span className='h2 text-secondary font-lemonada font-medium'>
+							{about.span}
+						</span>
 					</h2>
 					<p className='font-vazirmatn xl:text-start text-center font-semibold  text-2xl p text-base-100'>
 						{about.p1}

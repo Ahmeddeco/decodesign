@@ -17,6 +17,7 @@ const config = {
 			fontFamily: {
 				vazirmatn: ['var(--font-vazirmatn)'],
 				lemonada: ['var(--font-lemonada)'],
+				bungeeOutline:['var(--font-bungeeOutline)'],
 			},
 
 			colors: {
