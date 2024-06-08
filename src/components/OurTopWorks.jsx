@@ -1,4 +1,5 @@
 import React from 'react'
+import Carousel from './Carousel'
 
 const OurTopWorks = () => {
 	return (
@@ -6,7 +7,9 @@ const OurTopWorks = () => {
 			className='bg-background'
 			id='ourworks'
 		>
-			OurTopWorks
+			<h1 className='h1 text-base-100'>
+				<Carousel />
+			</h1>
 		</section>
 	)
 }

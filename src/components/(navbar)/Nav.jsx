@@ -1,6 +1,6 @@
 'use client'
 
-import { logo, navigation } from '@/constants/homeAr'
+import { logo } from '@/constants/homeAr'
 import Image from 'next/image'
 import { useState } from 'react'
 import { TfiClose, TfiMenu } from 'react-icons/tfi'
@@ -37,7 +37,7 @@ const Nav = () => {
 
 				<div
 					onClick={handleClick}
-					className='xl:text-4xl text-lg text-gold z-50 xl:hidden block'
+					className='xl:text-4xl text-lg text-secondary z-50 xl:hidden block'
 				>
 					{mobileNav ? <TfiClose /> : <TfiMenu />}
 				</div>

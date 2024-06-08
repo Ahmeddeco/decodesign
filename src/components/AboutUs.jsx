@@ -10,7 +10,7 @@ const AboutUs = () => {
 		>
 			{/* text */}
 			<div className='md:w-4/12 w-full'>
-				<div className='flex-col flex gap-9 justify-center xl:items-start items-center'>
+				<div className='flex-col flex gap-9 justify-center items-start '>
 					<h2 className='h2 text-base-100 font-lemonada font-medium'>
 						{about.title}{' '}
 						<span className='h2 text-secondary font-lemonada font-medium'>

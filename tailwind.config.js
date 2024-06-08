@@ -42,7 +42,7 @@ const config = {
 			{
 				mytheme: {
 					primary: '#181716',
-					secondary: '#D28E25',
+					secondary: '#F5A623',
 					accent: '#419DF0',
 					neutral: '#3C3C3C',
 					'base-100': '#D4D4D3',

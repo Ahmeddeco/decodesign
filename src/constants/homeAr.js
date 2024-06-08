@@ -92,7 +92,7 @@ export const social = [
 
 export const hero = {
 	title: 'ديكو ديزاين',
-	subtitle: 'أستديو تصميم',
+	subtitle: 'أستديو تصميم داخلي',
 	p: 'حول منزلك إلى تحفة فنية',
 }
 
