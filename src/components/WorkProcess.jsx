@@ -10,36 +10,40 @@ const WorkProcess = () => {
 		>
 			{/* Text */}
 
-			<div className=' md:w-4/12 w-full'>
-				<div className='flex-col flex gap-9 justify-center xl:items-start items-center'>
+			<div className=' md:w-4/12 w-full '>
+				<div className='flex flex-col gap-16 items-start justify-center'>
 					{/* Title */}
-					<h2 className='h2 text-base-100 font-lemonada font-medium'>
+					<h2 className='h2 text-base-100 font-lemonada '>
 						{workProcess.mainTitle}{' '}
-						<span className='h2 text-secondary font-lemonada font-medium'>
+						<span className='h2 text-secondary font-lemonada '>
 							{workProcess.span}
 						</span>
 					</h2>
-					{/*start map */}
-					{workProcess.subTitle.map(({ num, p, title }) => {
-						return (
-							<div
-								key={num}
-								className='flex gap-6 items-start justify-start '
-							>
-								<div className='text-secondary font-normal text-4xl font-bungeeOutline'>
-									{/* number */}
-									{num}
+					<div className='flex-col flex gap-9 justify-center xl:items-start items-center'>
+						{/*start map */}
+						{workProcess.subTitle.map(({ num, p, title }) => {
+							return (
+								<div
+									key={num}
+									className='flex gap-6 items-start justify-start '
+								>
+									<div className='text-secondary h3 font-bungeeOutline'>
+										{/* number */}
+										{num}
+									</div>
+									<div className='flex flex-col md:gap-4 gap-2 '>
+										{/* title */}
+										<h3 className='h3 text-secondary font-vazirmatn'>
+											{title}
+										</h3>
+										{/* para */}
+										<p className='p'>{p}</p>
+									</div>
 								</div>
-								<div className='flex flex-col md:gap-4 gap-2 font-vazirmatn'>
-									{/* title */}
-									<h3 className='text-secondary font-bold text-3xl'>{title}</h3>
-									{/* para */}
-									<p className='text-base-100 font-semibold font-vazirmatn text-xl'>{p}</p>
-								</div>
-							</div>
-						)
-					})}
-					{/*end  map */}
+							)
+						})}
+						{/*end  map */}
+					</div>
 				</div>
 			</div>
 			{/* Image */}

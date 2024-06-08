@@ -17,12 +17,10 @@ const AboutUs = () => {
 							{about.span}
 						</span>
 					</h2>
-					<p className='font-vazirmatn xl:text-start text-center font-semibold  text-2xl p text-base-100'>
-						{about.p1}
-					</p>
-					<p className='font-vazirmatn xl:text-start text-center font-bold text-2xl p text-base-100'>
-						{about.p2}
-					</p>
+					<div className='flex flex-col lg:gap-8 gap-4'>
+						<p className='p '>{about.p1}</p>
+						<p className='p'>{about.p2}</p>
+					</div>
 					{/* status */}
 					<div className='flex gap-10'>
 						{state.map((item, index) => {

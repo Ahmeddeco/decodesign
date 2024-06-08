@@ -1,13 +1,11 @@
-import daisyui from "daisyui"
+import daisyui from 'daisyui'
 /** @type {import('tailwindcss').Config} */
 const config = {
-  content: [
-		"./src/**/*.{js,ts,jsx,tsx,mdx}",
-],
-	theme: { 
+	content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
+	theme: {
 		container: {
-		center: true,
-	},
+			center: true,
+		},
 		extend: {
 			backgroundImage: {
 				largBg: "url('/images/home/background dark.webp')",
@@ -17,7 +15,7 @@ const config = {
 			fontFamily: {
 				vazirmatn: ['var(--font-vazirmatn)'],
 				lemonada: ['var(--font-lemonada)'],
-				bungeeOutline:['var(--font-bungeeOutline)'],
+				bungeeOutline: ['var(--font-bungeeOutline)'],
 			},
 
 			colors: {
@@ -38,18 +36,19 @@ const config = {
 			xl: '1300px',
 		},
 	},
-	plugins: [daisyui],
+	plugins: [daisyui, '@tailwindcss/typography'],
 	daisyui: {
-    themes: [{
-			mytheme: {
-				"primary": "#181716",
-				"secondary": "#D28E25",
-				"accent": "#419DF0",
-				"neutral": "#3C3C3C",
-				"base-100": "#D4D4D3",
-			},
+		themes: [
+			{
+				mytheme: {
+					primary: '#181716',
+					secondary: '#D28E25',
+					accent: '#419DF0',
+					neutral: '#3C3C3C',
+					'base-100': '#D4D4D3',
+				},
 			},
 		],
-  },
+	},
 }
 export default config

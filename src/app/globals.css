@@ -7,19 +7,19 @@
 	} */
 
 	.p {
-		@apply xl:font-semibold font-thin;
+		@apply font-vazirmatn xl:font-normal font-thin text-start text-base-100 text-2xl;
 	}
 
 	.h1 {
-		@apply xl:font-semibold font-thin text-center text-[90px] ;
+		@apply font-bold text-center xl:text-9xl text-5xl;
 	}
 
 	.h2 {
-		@apply xl:font-semibold font-thin text-center text-[64px] ;
+		@apply font-bold text-center xl:text-7xl text-3xl;
 	}
 
 	.h3 {
-		@apply xl:font-medium font-thin text-center text-[45px];
+		@apply font-semibold  xl:text-5xl text-xl;
 	}
 
 	.h4 {
@@ -35,7 +35,7 @@
 	}
 
 	section {
-		@apply flex justify-center items-center min-h-screen h-auto mx-auto w-full ;
+		@apply flex justify-center items-center min-h-svh h-auto mx-auto w-full pt-24 lg:px-0 px-6;
 	}
 	.bg-box {
 		@apply bg-boxesBg  bg-contain;

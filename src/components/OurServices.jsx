@@ -13,12 +13,10 @@ const OurServices = () => {
 
 			<div className=' md:w-4/12 w-full'>
 				<div className='flex-col flex gap-9 justify-center xl:items-start items-center'>
-					<h2 className='h2 text-secondary font-lemonada font-medium'>
+					<h2 className='h2 text-secondary font-lemonada'>
 						{services.title}
 					</h2>
-					<p className='font-vazirmatn xl:text-start text-center font-semibold  text-2xl text-base-100'>
-						{services.p}
-					</p>
+					<p className='p'>{services.p}</p>
 					{/* button */}
 					<Btn
 						link={services.buttonLink}
