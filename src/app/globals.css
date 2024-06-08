@@ -7,7 +7,7 @@
 	} */
 
 	.p {
-		@apply font-vazirmatn xl:font-normal font-thin text-start  text-base-100 text-2xl;
+		@apply font-vazirmatn xl:font-normal font-normal text-start  text-base-100 text-2xl;
 	}
 
 	.h1 {

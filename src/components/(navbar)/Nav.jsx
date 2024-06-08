@@ -1,13 +1,11 @@
 'use client'
 
-import { logo } from '@/constants/homeAr'
-import Image from 'next/image'
 import { useState } from 'react'
 import { TfiClose, TfiMenu } from 'react-icons/tfi'
 import NavMobile from './NavMobile'
 import SocialIcons from './SocialIcons'
 import NavLinks from './NavLinks'
-import Link from 'next/link'
+import Logo from '../Logo'
 
 const Nav = () => {
 	const [mobileNav, setMobileNav] = useState(false)
@@ -17,12 +15,7 @@ const Nav = () => {
 		<header className='fixed z-50  bg-primary/95'>
 			<nav className='w-screen flex  items-center justify-between py-4 px-8  xl:py-4 xl:px-20  mx-auto'>
 				{/*--------- logo-------- */}
-				<Link href='/'>
-					<Image
-						src={logo.src}
-						alt={logo.alt}
-					/>
-				</Link>
+				<Logo />
 
 				{/*--------- Desktop Nav Links -------- */}
 
