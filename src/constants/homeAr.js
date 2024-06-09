@@ -41,28 +41,23 @@ export const navigation = [
 		url: '/',
 		id: 'hero',
 	},
-	{
-		name: 'من نحن',
-		target: 'AboutUs',
-		url: 'aboutus',
-		id: 'aboutus',
-	},
-	{
-		name: 'خدماتنا',
-		target: 'OurServices',
-		url: 'ourServices',
-		id: 'ourServices',
-	},
-	{
-		name: 'مراحل العمل',
-		target: 'WorkProcess',
-		url: 'workprocess',
-		id: 'workprocess',
-	},
+
 	{
 		name: 'أعمالنا',
 		target: 'OurWorks',
 		url: '/ourworks',
+		id: 'ourworks',
+	},
+	{
+		name: 'خدماتنا',
+		target: 'OurWorks',
+		url: '/ourservices',
+		id: 'ourworks',
+	},
+	{
+		name: 'مقالات',
+		target: 'OurWorks',
+		url: '/articles',
 		id: 'ourworks',
 	},
 ]
@@ -98,7 +93,7 @@ export const hero = {
 
 export const about = {
 	title: 'من',
-	span:'نحن',
+	span: 'نحن',
 
 	p1: 'نحن نؤمن بالتفكير المختلف وأن أهم شيء لراحة الإنسان هو العيش في بيئة هادئة ومبهجة تلبي احتياجاته وتساعده على البقاء سعيدًا ومرتاحًا دائمًا.',
 	p2: 'كما نؤمن أن الجمال والرقي يكمن في البساطة والانسجام وإرضاء ذوق العميل ورغباته. نحن نقوم بتصميم التصاميم الداخلية.',
@@ -130,7 +125,7 @@ export const services = {
 
 export const workProcess = {
 	mainTitle: 'مراحل',
-	span:'العمل',
+	span: 'العمل',
 	img: workProcessImg,
 	imgAlt: 'modern dinning room',
 	subTitle: [
