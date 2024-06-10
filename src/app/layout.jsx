@@ -48,7 +48,7 @@ export default function RootLayout({ children }) {
 		>
 			<body className=' bg-primary '>
 				<Nav/>
-				<main className=''>{children}</main>
+				<main className='bg-boxesBg'>{children}</main>
 				<Footer/> 
 			</body>
 		</html>

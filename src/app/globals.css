@@ -15,7 +15,7 @@
 	}
 
 	.h2 {
-		@apply font-bold text-center xl:text-7xl text-3xl;
+		@apply font-bold  xl:text-7xl text-3xl leading-8;
 	}
 
 	.h3 {
@@ -35,10 +35,9 @@
 	}
 
 	section {
-		@apply flex justify-center items-center min-h-svh h-auto mx-auto w-full pt-24 lg:px-0 px-6;
+		@apply flex justify-center items-center h-auto min-h-[calc(100dvh-84px)]  mx-auto w-full pt-24 lg:px-12 px-6;
 	}
 	.bg-box {
 		@apply bg-boxesBg  bg-contain;
 	}
 }
-

@@ -50,13 +50,13 @@ export const navigation = [
 	},
 	{
 		name: 'خدماتنا',
-		target: 'OurWorks',
+		target: 'ourservices',
 		url: '/ourservices',
-		id: 'ourworks',
+		id: 'ourservices',
 	},
 	{
 		name: 'مقالات',
-		target: 'OurWorks',
+		target: 'articles',
 		url: '/articles',
 		id: 'ourworks',
 	},
@@ -177,117 +177,137 @@ export const footer = {
 export const ourWorksPage = [
 	{
 		id: 1,
-		projectName: 'جابانيدي',
-		title: 'ريسبشن و مطبخ جابانيدي',
+		title: 'تصميم جابانيدي',
 		location: 'القاهرة الجديدة - مصر',
 		paragraph:
 			'يتميز التصميم الجابانيدي بالبساطة واستخدام الألوان الترابية مع لمسة بسيطة من الألوان الحارة , واستخدام الاخشاب الطبيعية بشكل بسيط وتشطيب متقن .',
-		btnText: 'مشاهدة العمل كاملا',
 		pic: [
 			{
-				src: japanidi1,
-				alt: 'japanidi',
+				img: {
+					src: japanidi1,
+					alt: 'japanidi',
+				},
 			},
 			{
-				src: japanidi2,
-				alt: 'japanidi',
+				img: {
+					src: japanidi2,
+					alt: 'japanidi',
+				},
 			},
 			{
-				src: japanidi3,
-				alt: 'japanidi',
+				img: {
+					src: japanidi3,
+					alt: 'japanidi',
+				},
 			},
 		],
 	},
 	{
 		id: 2,
 
-		projectName: 'جلام',
-		title: 'شقة مودرن بأسلوب الفخامة',
+		title: 'شقة بأسلوب الفخامة',
 		location: 'مدينة السادات - مصر',
 		paragraph:
 			'يتميز هذا الأسلوب باستخدام الوان محايدة مثل البيج الفاتح مع لمسات من الخشب المصبع بلون بني بيور ، والاهتمام بالتشطيب الجيد والخامات العالية والخطوط الواضحة والمستقيمة .',
-		btnText: 'مشاهدة العمل كاملا',
 		pic: [
 			{
-				src: glam1,
-				alt: 'glam',
+				img: {
+					src: glam1,
+					alt: 'glam',
+				},
 			},
 			{
-				src: glam2,
-				alt: 'glam',
+				img: {
+					src: glam2,
+					alt: 'glam',
+				},
 			},
 			{
-				src: glam3,
-				alt: 'glam',
+				img: {
+					src: glam3,
+					alt: 'glam',
+				},
 			},
 		],
 	},
 	{
 		id: 3,
-		projectName: 'البحر',
-		title: 'استوديو على البحر',
+		title: 'أستوديو على البحر',
 		location: 'كاليه - فرنسا',
 		paragraph:
 			'صمم هذا المكان ليلائم الأماكن الباردة لشمال أوروبا .حيث الألوان الفاتحة لتعكس اشعة الشمس القليلة ، وكذلك وجود الوان حارة لكسر الألوان الباهتة في البيئة الخارجية وزيادة الإحساس بالدفء، وكذلك الاستعانة بمرآة كبيرة لتساعد على انتشار اشعة الضوء ولإعطاء الإحساس بكبر المكان.',
-		btnText: 'مشاهدة العمل كاملا',
 		pic: [
 			{
-				src: sea1,
-				alt: 'sea apartment',
+				img: {
+					src: sea1,
+					alt: 'sea apartment',
+				},
 			},
 			{
-				src: sea2,
-				alt: 'sea apartment',
+				img: {
+					src: sea2,
+					alt: 'sea apartment',
+				},
 			},
 			{
-				src: sea3,
-				alt: 'sea apartment',
+				img: {
+					src: sea3,
+					alt: 'sea apartment',
+				},
 			},
 		],
 	},
 	{
 		id: 4,
-		projectName: 'مودرن اصفر',
 		title: 'شقة مودرن صفراء',
 		location: 'مدينة نصر - مصر',
 		paragraph:
 			'يعتبر استخدام اللون الأصفر من الأشياء التي تساعد العميل على الشعور بالدفء والطاقة ويرفع من مستوى الروح المعنوية والابداع ، يقوم أيضا بتحفيز عمليات التمثيل الغذائي ولكن يجب توخي الحذر عند استخدام هذا اللون حيث يجب اختيار درجات اقل تشبعا.',
-		btnText: 'مشاهدة العمل كاملا',
 		pic: [
 			{
-				src: yellowApartment1,
-				alt: 'yellow Apartment',
+				img: {
+					src: yellowApartment1,
+					alt: 'yellow Apartment',
+				},
 			},
 			{
-				src: yellowApartment2,
-				alt: 'yellow Apartment',
+				img: {
+					src: yellowApartment2,
+					alt: 'yellow Apartment',
+				},
 			},
 			{
-				src: yellowApartment3,
-				alt: 'yellow Apartment',
+				img: {
+					src: yellowApartment3,
+					alt: 'yellow Apartment',
+				},
 			},
 		],
 	},
 	{
 		id: 5,
-		projectName: 'مودرن أزرق',
-		title: 'شقة مودرن  بالأزرق البترولي',
+		title: 'شقة مودرن بترولي',
 		location: 'صحم - عمان',
 		paragraph:
 			'استخدام هذه الدرجة من الأزرق يعطي إحساس بالرحابة والسعة والهدوء والتأمل لذلك ينصح باستخدامه لمن يحب الجو الهادئ ليتغلب على التوتر العام في البيئة المحيطة .',
-		btnText: 'مشاهدة العمل كاملا',
 		pic: [
 			{
-				src: blueApartment1,
-				alt: 'blue apartment',
+				img: {
+					src: blueApartment1,
+					alt: 'blue apartment',
+				},
 			},
 			{
-				src: blueApartment2,
-				alt: 'blue apartment',
+				img: {
+					src: blueApartment2,
+					alt: 'blue apartment',
+				},
 			},
 			{
-				src: blueApartment3,
-				alt: 'blue apartment',
+				img: {
+					src: blueApartment3,
+					alt: 'blue apartment',
+				},
 			},
 		],
 	},

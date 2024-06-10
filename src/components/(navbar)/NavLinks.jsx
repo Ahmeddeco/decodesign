@@ -21,9 +21,6 @@ const NavLinks = () => {
 								? 'text-secondary'
 								: 'text-base-100'
 						} cursor-pointer  text-2xl font-bold font-vazirmatn`}
-						// to={id}
-						// smooth={true}
-						// duration={1200}
 						href={url}
 					>
 						{name}
