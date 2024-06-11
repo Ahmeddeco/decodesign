@@ -1,6 +1,7 @@
 import { about, state } from '@/constants/homeAr'
 import Image from 'next/image'
 import React from 'react'
+import Btn from './Btn'
 
 const AboutUs = () => {
 	return (
@@ -39,6 +40,10 @@ const AboutUs = () => {
 							)
 						})}
 					</div>
+					<Btn
+						title='شاهد المزيد من أعمالنا'
+						link='/ourworks'
+					/>
 				</div>
 			</div>
 			{/* photo */}

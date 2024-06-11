@@ -1,6 +1,7 @@
 import { workProcess } from '@/constants/homeAr'
 import Image from 'next/image'
 import React from 'react'
+import Btn from './Btn'
 
 const WorkProcess = () => {
 	return (
@@ -43,6 +44,10 @@ const WorkProcess = () => {
 							)
 						})}
 						{/*end  map */}
+						<Btn
+							title='شاهد المزيد من أعمالنا'
+							link='/ourworks'
+						/>
 					</div>
 				</div>
 			</div>

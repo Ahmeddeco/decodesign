@@ -10,31 +10,20 @@ const IdWorkPage = ({ params }) => {
 	let myProject = project[projectId]
 
 	const [selected, setSelected] = useState(myProject.images[0])
-	// const handleClick = () => setSelected(myProject.images[2])
 
 	return (
 		<section className='text-base-100 '>
 			<div className='flex lg:flex-row-reverse flex-col gap-8 '>
 				{/* text container */}
-				<div className='lg:w-4/12 w-full flex flex-col items-start justify-center gap-12'>
+				<div className='lg:w-3/12 w-full flex flex-col items-start justify-center gap-12'>
 					<h2 className='h2 text-secondary'>{myProject.title}</h2>
 					<p className='p'>{myProject.paragraph}</p>
 					<Btn
 						link='/ourworks'
 						title='أعمالنا'
 					/>
-				</div>
-				{/* image main container */}
-				<div className='lg:w-8/12 w-full flex flex-col  gap-8 items-center justify-between'>
-					<div className=''>
-						<Image
-							className='lg:rounded-2xl rounded-lg'
-							src={selected}
-							alt={myProject.title}
-						/>
-					</div>
 					{/* thumbs */}
-					<div className='grid grid-cols-5 grid-flow-row-dense lg:flex  lg:gap-4 gap-2  '>
+					<div className='grid grid-cols-5  grid-flow-row-dense  lg:gap-4 gap-2  '>
 						{myProject.images.map((img, index) => {
 							return (
 								<div
@@ -60,6 +49,14 @@ const IdWorkPage = ({ params }) => {
 							)
 						})}
 					</div>
+				</div>
+				{/* image main container */}
+				<div className='lg:w-9/12 w-full'>
+						<Image
+							className='lg:rounded-2xl rounded-lg'
+							src={selected}
+							alt={myProject.title}
+						/>
 				</div>
 			</div>
 		</section>

@@ -11,7 +11,10 @@ const Hero = () => {
 			<h1 className='h1 font-lemonada text-secondary '>{hero.title}</h1>
 			<h2 className='h2 text-base-100 font-vazirmatn'>{hero.subtitle}</h2>
 			<h3 className='h3 text-base-100 font-vazirmatn'>{hero.p}</h3>
-			<Btn title='أعمالنا' link='/ourworks'/>
+			<Btn
+				title='شاهد المزيد من أعمالنا'
+				link='/ourworks'
+			/>
 		</section>
 	)
 }

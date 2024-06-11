@@ -72,7 +72,6 @@ export const project = [
 		title: ourWorksPage[0].title,
 		paragraph: ourWorksPage[0].paragraph,
 		images: [
-			japanidiHd01,
 			japanidiHd02,
 			japanidiHd03,
 			japanidiHd04,
@@ -82,6 +81,7 @@ export const project = [
 			japanidiHd08,
 			japanidiHd09,
 			japanidiHd010,
+			japanidiHd01,
 		],
 	},
 	{
