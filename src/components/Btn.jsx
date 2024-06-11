@@ -3,10 +3,10 @@ import React from 'react'
 
 const Btn = ({ title, link }) => {
 	return (
-		<button className='btn-secondary btn-outline btn btn-lg'>
+		<button className='btn-secondary btn-outline btn'>
 			<Link
 				href={link}
-				className='text-3xl'
+				className='text-xl'
 			>
 				{title}
 			</Link>

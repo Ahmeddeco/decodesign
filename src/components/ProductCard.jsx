@@ -21,7 +21,7 @@ const ProductCard = () => {
 						>
 							{/* main map container */}
 
-							<div className='w-full lg:w-1/3 flex flex-col gap-8 lg:gap-8'>
+							<div className='w-full lg:w-1/3 flex flex-col gap-4 lg:gap-12 '>
 								<h2 className='h2 text-secondary font-lemonada'>
 									{title}
 								</h2>
@@ -33,7 +33,8 @@ const ProductCard = () => {
 								</div>
 								<Btn
 									link={`/ourworks/${id}`}
-									title='شاهد العمل بالكامل '
+									title='شاهد المزيد '
+									className='w-9'
 								/>
 							</div>
 							{/* images */}

@@ -7,7 +7,7 @@
 	} */
 
 	.p {
-		@apply font-vazirmatn xl:font-normal font-normal text-start  text-base-100 text-2xl;
+		@apply font-vazirmatn xl:font-normal font-normal text-start  text-base-100 lg:text-2xl text-lg;
 	}
 
 	.h1 {
@@ -35,7 +35,7 @@
 	}
 
 	section {
-		@apply flex justify-center items-center h-auto min-h-screen mx-auto w-full pt-24 lg:px-12 px-6;
+		@apply flex justify-center items-center h-auto min-h-screen mx-auto w-full  pt-8 lg:px-12 px-6;
 	}
 	.bg-box {
 		@apply bg-boxesBg  bg-contain;

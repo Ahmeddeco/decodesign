@@ -28,13 +28,13 @@ const IdWorkPage = ({ params }) => {
 				<div className='lg:w-8/12 w-full flex flex-col  gap-8 items-center justify-between'>
 					<div className=''>
 						<Image
-							className='lg:rounded-lg rounded-md'
+							className='lg:rounded-2xl rounded-lg'
 							src={selected}
 							alt={myProject.title}
 						/>
 					</div>
-					{/* thunbs */}
-					<div className='flex flex-row lg:gap-4 gap-2  '>
+					{/* thumbs */}
+					<div className='grid grid-cols-5 grid-flow-row-dense lg:flex  lg:gap-4 gap-2  '>
 						{myProject.images.map((img, index) => {
 							return (
 								<div
@@ -43,10 +43,10 @@ const IdWorkPage = ({ params }) => {
 								>
 									<button
 										className={`${
-											index === selected
+											myProject.images[index] === selected
 												? 'border border-secondary '
 												: ''
-										}`}
+										} lg:rounded-lg rounded-md`}
 										onClick={() =>
 											setSelected(myProject.images[index])
 										}
