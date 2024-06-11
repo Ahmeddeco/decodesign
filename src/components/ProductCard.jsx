@@ -37,14 +37,14 @@ const ProductCard = () => {
 								/>
 							</div>
 							{/* images */}
-							<div className='w-full lg:w-2/3 flex lg:gap-16 gap-8 lg:flex-row flex-col '>
+							<div className='w-full lg:w-2/3 flex lg:gap-16 gap-8 lg:flex-row flex-col  '>
 								<div className=' '>
 									<Image
 										src={pic[0].img.src}
 										alt={pic[0].img.alt}
 									/>
 								</div>
-								<div className=' w-full lg:w-1/2 flex flex-col lg:gap-16 gap-8  '>
+								<div className=' w-full lg:w-1/2 flex flex-col lg:gap-16 gap-8 justify-between '>
 									<Image
 										src={pic[1].img.src}
 										alt={pic[1].img.alt}
