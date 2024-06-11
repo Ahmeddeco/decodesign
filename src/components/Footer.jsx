@@ -7,7 +7,7 @@ const Footer = () => {
 	return (
 		<footer className='mx-auto bg-primary'>
 			{/* main container */}
-			<div className='flex lg:flex-row flex-col  justify-between items-start lg:px-40 lg:py-40 py-8 px-6 w-screen lg:w-full lg:gap-12 gap-8 '>
+			<div className='flex lg:flex-row flex-col  justify-between items-start lg:px-40 lg:py-20 py-8 px-6 w-screen lg:w-full lg:gap-12 gap-8 '>
 				{/* logo */}
 				<div className='flex flex-col gap-8  lg:w-4/12  '>
 					<div className=''>
