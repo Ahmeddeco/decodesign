@@ -26,14 +26,11 @@ const IdWorkPage = ({ params }) => {
 					<div className='grid grid-cols-5  grid-flow-row-dense  lg:gap-4 gap-2  '>
 						{myProject.images.map((img, index) => {
 							return (
-								<div
-									className=''
-									key={index}
-								>
+								<div key={index}>
 									<button
 										className={`${
 											myProject.images[index] === selected
-												? 'border border-secondary '
+												? 'border-2  border-secondary '
 												: ''
 										} lg:rounded-lg rounded-md`}
 										onClick={() =>
@@ -42,7 +39,8 @@ const IdWorkPage = ({ params }) => {
 									>
 										<Image
 											src={img}
-											className='lg:rounded-lg rounded-md'
+											alt={myProject.title}
+											className='lg:rounded-lg rounded-md '
 										/>
 									</button>
 								</div>
@@ -52,11 +50,11 @@ const IdWorkPage = ({ params }) => {
 				</div>
 				{/* image main container */}
 				<div className='lg:w-9/12 w-full'>
-						<Image
-							className='lg:rounded-2xl rounded-lg'
-							src={selected}
-							alt={myProject.title}
-						/>
+					<Image
+						className='lg:rounded-2xl rounded-lg '
+						src={selected}
+						alt={myProject.title}
+					/>
 				</div>
 			</div>
 		</section>
