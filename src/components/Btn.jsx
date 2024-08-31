@@ -7,7 +7,7 @@ const Btn = ({ title, link }) => {
 			href={link}
 			className='text-xl'
 		>
-			<button className='btn-secondary btn-outline btn'>{title}</button>
+			<button className='btn-secondary btn-outline btn btn-wide'>{title}</button>
 		</Link>
 	)
 }
