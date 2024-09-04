@@ -2,7 +2,7 @@ import './globals.css'
 import { Vazirmatn, Lemonada, Bungee_Outline } from 'next/font/google'
 import Footer from '../components/Footer'
 import Nav from '../components/(navbar)/Nav'
-import { GoogleTagManager } from '@next/third-parties/google'
+import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google'
 
 // fonts --------------------------------
 const vazirmatn = Vazirmatn({
@@ -52,6 +52,7 @@ export default function RootLayout({ children }) {
 				<Nav />
 				<main className='bg-boxesBg'>{children}</main>
 				<Footer />
+				<GoogleAnalytics gaId='G-VFNMZRN4K2' />
 			</body>
 		</html>
 	)
