@@ -47,7 +47,10 @@ export default function RootLayout({ children }) {
 			dir='rtl'
 			className={`${lemonada.variable} ${vazirmatn.variable} ${bungeeOutline.variable}`}
 		>
-			<GoogleTagManager gtmId='G-VFNMZRN4K2' />
+			<GoogleTagManager
+				gtmId='GT-NGMV9SLC
+'
+			/>
 			<body className=' bg-primary '>
 				<Nav />
 				<main className='bg-boxesBg'>{children}</main>
