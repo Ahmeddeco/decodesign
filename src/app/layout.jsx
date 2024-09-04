@@ -48,7 +48,8 @@ export default function RootLayout({ children }) {
 			className={`${lemonada.variable} ${vazirmatn.variable} ${bungeeOutline.variable}`}
 		>
 			<GoogleTagManager
-				gtmId='GT-NGMV9SLC
+				gtmId='
+GTM-KMQFT9FD
 '
 			/>
 			<body className=' bg-primary '>
