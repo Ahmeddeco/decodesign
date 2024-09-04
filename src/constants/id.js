@@ -66,6 +66,9 @@ import blueHd015 from '/public/images/our works/blue apartment/hd/blue apartment
 import blueHd016 from '/public/images/our works/blue apartment/hd/blue apartment 16.webp'
 import { ourWorksPage } from './homeAr'
 
+
+// Images of all works
+
 export const project = [
 	{
 		Id: 1,
