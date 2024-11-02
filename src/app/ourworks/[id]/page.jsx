@@ -12,10 +12,10 @@ const IdWorkPage = ({ params }) => {
 	const [selected, setSelected] = useState(myProject.images[0])
 
 	return (
-		<section className='text-base-100 '>
+		<section className='text-base-100 pt-20'>
 			<div className='flex lg:flex-row-reverse flex-col-reverse gap-8 items-start justify-start '>
 				{/* text container */}
-				<div className='lg:w-3/12 w-full flex flex-col  gap-8 lg:gap-12 max-h-[770px]'>
+				<div className='lg:w-3/12 w-full flex flex-col  gap-8 lg:gap-12 max-h-[760px]'>
 					<h2 className='h2 text-secondary '>{myProject.title}</h2>
 					<p className='p '>{myProject.paragraph}</p>
 					<Btn link='/ourworks' title='أعمالنا' />
@@ -49,6 +49,7 @@ const IdWorkPage = ({ params }) => {
 						className='lg:rounded-2xl rounded-lg object-cover'
 						src={selected}
 						alt={myProject.title}
+						priority
 					/>
 				</div>
 			</div>

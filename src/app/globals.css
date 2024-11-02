@@ -7,33 +7,33 @@
 	}
 
 	.h1 {
-		@apply font-bold text-center xl:text-9xl text-5xl;
+		@apply font-bold text-center xl:text-9xl text-5xl font-lemonada;
 	}
 
 	.h2 {
-		@apply font-bold  xl:text-5xl text-3xl;
+		@apply font-bold  xl:text-5xl text-3xl font-lemonada;
 	}
 
 	.h3 {
-		@apply font-semibold  xl:text-4xl text-xl;
+		@apply font-semibold  xl:text-4xl text-xl font-lemonada;
 	}
 
 	.h4 {
-		@apply font-medium  xl:text-3xl text-lg;
+		@apply font-medium  xl:text-3xl text-lg font-lemonada;
 	}
 
 	.h5 {
-		@apply font-normal  xl:text-2xl text-base;
+		@apply font-normal  xl:text-2xl text-base font-lemonada;
 	}
 
 	.h6 {
-		@apply font-light  xl:text-xl text-sm;
+		@apply font-light  xl:text-xl text-sm font-lemonada;
 	}
 
 	section {
 		@apply flex justify-center items-center h-auto min-h-screen mx-auto w-full  pt-8 lg:px-12 px-6;
 	}
 	.bg-box {
-		@apply bg-boxesBg  bg-contain;
+		@apply bg-boxesBg  bg-cover;
 	}
 }

@@ -3,9 +3,12 @@ import React from 'react'
 
 const Btn = ({ title, link }) => {
 	return (
-		<div className='w-full items-center justify-center flex'>
-			<Link href={link} className='text-xl'>
-				<button className='btn-secondary btn-outline btn btn-wide '>
+		<div className='w-full lg:w-fit'>
+			<Link
+				href={link}
+				className='text-xl w-full  items-center justify-center  flex'
+			>
+				<button className='btn-secondary  btn btn-block lg:btn-wide '>
 					{title}
 				</button>
 			</Link>

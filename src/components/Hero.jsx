@@ -5,7 +5,7 @@ import Btn from './Btn'
 const Hero = () => {
 	return (
 		<section
-			className='bg-largBg bg-cover  flex-col  gap-16 my-auto'
+			className='bg-largBg bg-cover bg-center bg-no-repeat  flex-col  gap-16 my-auto pt-20'
 			id='hero'
 		>
 			<h1 className='h1 font-lemonada text-secondary '>{hero.title}</h1>

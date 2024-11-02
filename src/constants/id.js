@@ -25,8 +25,7 @@ import seaStudioHd02 from '/public/images/our works/sea studio/hd/sea studio 2.w
 import seaStudioHd03 from '/public/images/our works/sea studio/hd/sea studio 3.webp'
 import seaStudioHd04 from '/public/images/our works/sea studio/hd/sea studio 4.webp'
 import seaStudioHd05 from '/public/images/our works/sea studio/hd/sea studio 5.webp'
-import seaStudioHd06 from '/public/images/our works/sea studio/hd/sea studio 6.webp'
-import seaStudioHd07 from '/public/images/our works/sea studio/hd/sea studio 7.webp'
+
 import yellowHd01 from '/public/images/our works/yellow apartment/hd/yellow apartment1.webp'
 import yellowHd02 from '/public/images/our works/yellow apartment/hd/yellow apartment2.webp'
 import yellowHd03 from '/public/images/our works/yellow apartment/hd/yellow apartment3.webp'
@@ -117,8 +116,6 @@ export const project = [
 			seaStudioHd03,
 			seaStudioHd04,
 			seaStudioHd05,
-			seaStudioHd06,
-			seaStudioHd07,
 		],
 	},
 	{
