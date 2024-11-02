@@ -1,8 +1,8 @@
-import AboutUs from '@/components/AboutUs'
-import Hero from '@/components/Hero'
-import OurServices from '@/components/OurServices'
-import WorkProcess from '@/components/WorkProcess'
-import React from 'react'
+import AboutUs from "@/components/home/AboutUs"
+import Hero from "@/components/home/Hero"
+import OurServices from "@/components/home/OurServices"
+import WorkProcess from "@/components/home/WorkProcess"
+
 
 const home = () => {
 	return (

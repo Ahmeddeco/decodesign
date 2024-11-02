@@ -8,7 +8,7 @@ const Btn = ({ title, link }) => {
 				href={link}
 				className='text-xl w-full  items-center justify-center  flex'
 			>
-				<button className='btn-secondary  btn btn-block lg:btn-wide '>
+				<button className='btn-secondary  btn btn-block lg:btn-wide font-vazirmatn font-semibold text-lg'>
 					{title}
 				</button>
 			</Link>

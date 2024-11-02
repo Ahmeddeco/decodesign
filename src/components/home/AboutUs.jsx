@@ -1,12 +1,12 @@
 import { about, state } from '@/constants/homeAr'
 import Image from 'next/image'
 import React from 'react'
-import Btn from './Btn'
+import Btn from '../Btn'
 
 const AboutUs = () => {
 	return (
 		<section
-			className='flex flex-col md:flex-row bg-box bg-contain xl:gap-52 gap-14 items-center justify-evenly min-h-screen'
+			className='flex flex-col md:flex-row  xl:gap-52 gap-14 items-center justify-evenly min-h-screen'
 			id='aboutus'
 		>
 			{/* text */}
@@ -40,19 +40,12 @@ const AboutUs = () => {
 							)
 						})}
 					</div>
-					<Btn
-						title='شاهد المزيد من أعمالنا'
-						link='/ourworks'
-					/>
+					<Btn title='شاهد المزيد من أعمالنا' link='/ourworks' />
 				</div>
 			</div>
 			{/* photo */}
 			<div className=' md:w-4/12 w-full'>
-				<Image
-					src={about.img}
-					alt={about.title}
-					className='w-full'
-				/>
+				<Image src={about.img} alt={about.title} className='w-full' />
 			</div>
 		</section>
 	)

@@ -39,12 +39,10 @@ export default function RootLayout({ children }) {
 			dir='rtl'
 			className={`${lemonada.variable} ${vazirmatn.variable} `}
 		>
-			<GoogleTagManager gtmId='GTM-KMQFT9FD' />
 			<body className=' bg-primary '>
 				<Nav />
-				<main className='bg-boxesBg'>{children}</main>
+				<main className='bg-boxesBg bg-contain'>{children}</main>
 				<Footer />
-				<GoogleAnalytics gaId='G-VFNMZRN4K2' />
 			</body>
 		</html>
 	)

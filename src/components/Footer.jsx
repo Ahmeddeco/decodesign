@@ -5,7 +5,7 @@ import SocialIcons from './(navbar)/SocialIcons'
 
 const Footer = () => {
 	return (
-		<footer className='mx-auto bg-primary'>
+		<footer className='mx-auto bg-primary border-t-secondary border-t-2'>
 			{/* main container */}
 			<div className='flex lg:flex-row flex-col  justify-between items-start lg:px-40 lg:py-20 py-8 px-6 w-screen lg:w-full lg:gap-12 gap-8 '>
 				{/* logo */}

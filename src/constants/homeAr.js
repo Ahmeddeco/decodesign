@@ -1,7 +1,5 @@
-import facbookicon from '/public/icons/Facebook.webp'
-import instagramicon from '/public/icons/instagram.webp'
-import whatsappicon from '/public/icons/whatsapp.webp'
-import behanceicon from '/public/icons/Behance .webp'
+import { FaFacebookSquare, FaBehanceSquare, FaInstagramSquare, FaWhatsappSquare } from "react-icons/fa"
+
 import Logo from '/public/icons/logo.svg'
 import aboutImg from '/public/images/home/about us.webp'
 import servicesImg from '/public/images/home/our service photo.webp'
@@ -64,24 +62,27 @@ export const navigation = [
 
 export const social = [
 	{
-		socialName: 'facbook',
-		icon: facbookicon,
+		socialName: 'facebook',
 		url: 'https://www.facebook.com/profile.php?id=100085078434274',
+		icon: <FaFacebookSquare />
 	},
 	{
 		socialName: 'instagram',
-		icon: instagramicon,
 		url: 'https://www.instagram.com/decodesigndecodesign/',
+		icon: <FaInstagramSquare />
+
 	},
 	{
 		socialName: 'whatsapp',
-		icon: whatsappicon,
 		url: 'https://wa.me/+201152640142',
+		icon: <FaWhatsappSquare />
+
 	},
 	{
 		socialName: 'Behance',
-		icon: behanceicon,
 		url: 'https://www.behance.net/ahmeddesigner1981',
+		icon: <FaBehanceSquare />
+
 	},
 ]
 

@@ -30,7 +30,7 @@ const config = {
 			{
 				mytheme: {
 					primary: '#181716',
-					secondary: '#F5A623',
+					secondary: '#D48E24',
 					accent: '#419DF0',
 					neutral: '#3C3C3C',
 					'base-100': '#D4D4D3',

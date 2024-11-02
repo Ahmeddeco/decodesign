@@ -1,12 +1,12 @@
 import { workProcess } from '@/constants/homeAr'
 import Image from 'next/image'
 import React from 'react'
-import Btn from './Btn'
+import Btn from '../Btn'
 
 const WorkProcess = () => {
 	return (
 		<section
-			className='flex flex-col md:flex-row bg-contain bg-box xl:gap-52 gap-14 items-center justify-evenly min-h-screen'
+			className='flex flex-col md:flex-row xl:gap-52 gap-14 items-center justify-evenly min-h-screen'
 			id='workprocess'
 		>
 			{/* Text */}

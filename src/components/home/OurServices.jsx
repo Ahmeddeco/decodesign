@@ -1,12 +1,11 @@
-import React from 'react'
 import { services } from '@/constants/homeAr'
 import Image from 'next/image'
-import Btn from './Btn'
+import Btn from '../Btn'
 
 const OurServices = () => {
 	return (
 		<section
-			className='flex flex-col md:flex-row-reverse bg-contain bg-box xl:gap-52 gap-14 items-center justify-evenly min-h-screen'
+			className='flex flex-col md:flex-row-reverse xl:gap-52 gap-14 items-center justify-evenly min-h-screen'
 			id='ourServices'
 		>
 			{/* text */}

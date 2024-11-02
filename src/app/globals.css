@@ -7,7 +7,7 @@
 	}
 
 	.h1 {
-		@apply font-bold text-center xl:text-9xl text-5xl font-lemonada;
+		@apply font-bold  xl:text-9xl text-5xl font-lemonada;
 	}
 
 	.h2 {
