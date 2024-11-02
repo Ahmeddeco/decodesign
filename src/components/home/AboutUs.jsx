@@ -6,7 +6,7 @@ import Btn from '../Btn'
 const AboutUs = () => {
 	return (
 		<section
-			className='flex flex-col md:flex-row  xl:gap-52 gap-14 items-center justify-evenly min-h-screen'
+			className='flex flex-col md:flex-row   gap-14 items-center justify-evenly min-h-screen'
 			id='aboutus'
 		>
 			{/* text */}

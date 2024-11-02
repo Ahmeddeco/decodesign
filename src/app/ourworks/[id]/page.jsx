@@ -18,7 +18,11 @@ const IdWorkPage = ({ params }) => {
 				<div className='lg:w-3/12 w-full flex flex-col  gap-8 lg:gap-12 max-h-[760px]'>
 					<h2 className='h2 text-secondary '>{myProject.title}</h2>
 					<p className='p '>{myProject.paragraph}</p>
-					<Btn link='/ourworks' title='أعمالنا' />
+					<Btn
+						target={'_blank'}
+						link='https://wa.me/+201152640142'
+						title='إتصل الآن'
+					/>
 					{/* thumbs */}
 					<div className='grid grid-cols-3 grid-flow-row-dense  lg:gap-4 gap-2  overflow-y-auto'>
 						{myProject.images.map((img, index) => {
@@ -44,7 +48,7 @@ const IdWorkPage = ({ params }) => {
 					</div>
 				</div>
 				{/* image main container */}
-				<div className='lg:w-9/12 w-full'>
+				<div className='lg:w-9/12 w-full '>
 					<Image
 						className='lg:rounded-2xl rounded-lg object-cover'
 						src={selected}

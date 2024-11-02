@@ -1,7 +1,7 @@
 import './globals.css'
 import { Vazirmatn, Lemonada, Bungee_Outline } from 'next/font/google'
 import Footer from '../components/Footer'
-import Nav from '../components/(navbar)/Nav'
+import Nav from '../components/nav/Nav'
 import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google'
 import localFont from 'next/font/local'
 // fonts --------------------------------
