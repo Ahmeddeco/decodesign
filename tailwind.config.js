@@ -15,18 +15,6 @@ const config = {
 			fontFamily: {
 				vazirmatn: ['var(--font-vazirmatn)'],
 				lemonada: ['var(--font-lemonada)'],
-				bungeeOutline: ['var(--font-bungeeOutline)'],
-			},
-
-			colors: {
-				// gold: '#F5A524',
-				// darkblack: '#181716',
-				// Dark_Gray: '#242421',
-				// Black75: '#3C3C3C',
-				// Black50: '#9C9B9B',
-				// Black25: '#B6B6B6',
-				// Black10: '#CDCCCC',
-				// Black5: '#D4D4D3',
 			},
 		},
 		screens: {

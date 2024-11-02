@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 @layer base {
-	/* body {
-		@apply text-Black5 bg-darkblack;
-	} */
-
 	.p {
 		@apply font-vazirmatn xl:font-normal font-normal text-start  text-base-100 lg:text-2xl text-lg;
 	}
@@ -15,11 +11,11 @@
 	}
 
 	.h2 {
-		@apply font-bold  xl:text-7xl text-3xl leading-8;
+		@apply font-bold  xl:text-5xl text-3xl;
 	}
 
 	.h3 {
-		@apply font-semibold  xl:text-5xl text-xl;
+		@apply font-semibold  xl:text-4xl text-xl;
 	}
 
 	.h4 {
@@ -27,11 +23,11 @@
 	}
 
 	.h5 {
-		@apply font-normal  xl:text-xl text-base;
+		@apply font-normal  xl:text-2xl text-base;
 	}
 
 	.h6 {
-		@apply font-light  xl:text-lg text-sm;
+		@apply font-light  xl:text-xl text-sm;
 	}
 
 	section {

@@ -58,7 +58,7 @@ export const navigation = [
 		name: 'مقالات',
 		target: 'articles',
 		url: '/articles',
-		id: 'ourworks',
+		id: 'articles',
 	},
 ]
 

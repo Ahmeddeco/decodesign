@@ -12,18 +12,15 @@ const IdWorkPage = ({ params }) => {
 	const [selected, setSelected] = useState(myProject.images[0])
 
 	return (
-		<section className='text-base-100 '>
-			<div className='flex lg:flex-row-reverse flex-col gap-8 '>
+		<section className='text-base-100  '>
+			<div className='flex lg:flex-row-reverse flex-col-reverse gap-8 items-start justify-start  '>
 				{/* text container */}
-				<div className='lg:w-3/12 w-full flex flex-col items-start justify-center gap-12'>
-					<h2 className='h2 text-secondary'>{myProject.title}</h2>
-					<p className='p'>{myProject.paragraph}</p>
-					<Btn
-						link='/ourworks'
-						title='أعمالنا'
-					/>
+				<div className='lg:w-3/12 w-full flex flex-col  gap-8 lg:gap-12 '>
+					<h2 className='h2 text-secondary '>{myProject.title}</h2>
+					<p className='p '>{myProject.paragraph}</p>
+					<Btn link='/ourworks' title='أعمالنا' />
 					{/* thumbs */}
-					<div className='grid grid-cols-5  grid-flow-row-dense  lg:gap-4 gap-2  '>
+					<div className='grid grid-cols-4 lg:grid-cols-3  grid-flow-row-dense  lg:gap-4 gap-2  '>
 						{myProject.images.map((img, index) => {
 							return (
 								<div key={index}>
@@ -33,9 +30,7 @@ const IdWorkPage = ({ params }) => {
 												? 'border-2  border-secondary '
 												: ''
 										} lg:rounded-lg rounded-md`}
-										onClick={() =>
-											setSelected(myProject.images[index])
-										}
+										onClick={() => setSelected(myProject.images[index])}
 									>
 										<Image
 											src={img}

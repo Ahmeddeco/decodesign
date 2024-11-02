@@ -3,24 +3,16 @@ import { Vazirmatn, Lemonada, Bungee_Outline } from 'next/font/google'
 import Footer from '../components/Footer'
 import Nav from '../components/(navbar)/Nav'
 import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google'
-
+import localFont from 'next/font/local'
 // fonts --------------------------------
-const vazirmatn = Vazirmatn({
-	subsets: ['arabic'],
-	// display: 'swap',
+const vazirmatn = localFont({
+	src: '../fonts/Vazirmatn-VariableFont_wght.ttf',
 	variable: '--font-vazirmatn',
 })
 
-const lemonada = Lemonada({
-	subsets: ['arabic'],
-	// display: 'swap',
+const lemonada = localFont({
+	src: '../fonts/Lemonada-VariableFont_wght.ttf',
 	variable: '--font-lemonada',
-})
-
-const bungeeOutline = Bungee_Outline({
-	subsets: ['latin'],
-	weight: ['400'],
-	variable: '--font-bungeeOutline',
 })
 
 // metadata -----------------------------
@@ -45,7 +37,7 @@ export default function RootLayout({ children }) {
 		<html
 			lang='ar'
 			dir='rtl'
-			className={`${lemonada.variable} ${vazirmatn.variable} ${bungeeOutline.variable}`}
+			className={`${lemonada.variable} ${vazirmatn.variable} `}
 		>
 			<GoogleTagManager gtmId='GTM-KMQFT9FD' />
 			<body className=' bg-primary '>
