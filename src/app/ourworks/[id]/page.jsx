@@ -12,17 +12,12 @@ const IdWorkPage = ({ params }) => {
 	const [selected, setSelected] = useState(myProject.images[0])
 
 	return (
-		<section className='text-base-100 pt-20'>
-			<div className='flex lg:flex-row-reverse flex-col-reverse gap-8 items-start justify-start '>
+		<section className='text-base-100 w-screen h-screen'>
+			<div className='flex xl:flex-row-reverse flex-col-reverse gap-8 items-center justify-start w-full h-auto pt-24 xl:pt-8'>
 				{/* text container */}
-				<div className='lg:w-3/12 w-full flex flex-col  gap-8 lg:gap-12 max-h-[760px]'>
+				<div className='xl:w-3/12 w-full flex flex-col  gap-8 lg:gap-12 max-h-[760px]'>
 					<h2 className='h2 text-secondary '>{myProject.title}</h2>
 					<p className='p '>{myProject.paragraph}</p>
-					<Btn
-						target={'_blank'}
-						link='https://wa.me/+201152640142'
-						title='إتصل الآن'
-					/>
 					{/* thumbs */}
 					<div className='grid grid-cols-3 grid-flow-row-dense  lg:gap-4 gap-2  overflow-y-auto'>
 						{myProject.images.map((img, index) => {
@@ -46,11 +41,17 @@ const IdWorkPage = ({ params }) => {
 							)
 						})}
 					</div>
+					{/* Btn */}
+					<Btn
+						target={'_blank'}
+						link='https://wa.me/+201152640142'
+						title='إتصل الآن'
+					/>
 				</div>
 				{/* image main container */}
-				<div className='lg:w-9/12 w-full '>
+				<div className='xl:w-9/12 w-full '>
 					<Image
-						className='lg:rounded-2xl rounded-lg object-cover'
+						className='xl:rounded-2xl rounded-xl object-cover'
 						src={selected}
 						alt={myProject.title}
 						priority

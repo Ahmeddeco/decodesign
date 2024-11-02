@@ -3,13 +3,13 @@ import React from 'react'
 
 const Btn = ({ title, link, target }) => {
 	return (
-		<div className='w-full lg:w-fit'>
+		<div className='w-full'>
 			<Link
 				href={link}
-				className='text-xl w-full  items-center justify-center  flex'
+				className='text-xl items-center justify-center flex w-full'
 				target={target}
 			>
-				<button className='btn-secondary  btn btn-block lg:btn-wide font-vazirmatn font-semibold text-lg'>
+				<button className='btn-secondary btn btn-block xl:btn-wide font-vazirmatn font-semibold text-lg '>
 					{title}
 				</button>
 			</Link>
