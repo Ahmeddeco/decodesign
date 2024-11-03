@@ -1,6 +1,5 @@
 import { social } from '@/constants/homeAr'
 import Link from 'next/link'
-import React from 'react'
 
 const SocialIcons = () => {
 	return (

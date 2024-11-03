@@ -10,7 +10,7 @@ const NavLinks = () => {
 	const pathname = usePathname()
 	return (
 		<ul className='xl:flex items-center justify-between gap-10 hidden'>
-			{navigation.map(({ name, id, target, url }) => (
+			{navigation.map(({ name, id, url }) => (
 				<li
 					className=''
 					key={id}

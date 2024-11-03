@@ -25,7 +25,6 @@ const ProductCard = () => {
 								<Btn
 									link={`/ourworks/${id}`}
 									title='شاهد المزيد '
-									className='w-9'
 								/>
 							</div>
 							{/* images container */}

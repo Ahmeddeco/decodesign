@@ -1,7 +1,7 @@
 export const choosingFurniture = {
 	title: 'نصائح هامة عند اختيار قطع فرش جديدة لمنزلك',
 	mainParagraph: '',
-	mainImage: mainImage,
+	mainImage: '',
 	points: [
 		{
 			id: 1,

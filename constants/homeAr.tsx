@@ -1,4 +1,9 @@
-import { FaFacebookSquare, FaBehanceSquare, FaInstagramSquare, FaWhatsappSquare } from "react-icons/fa"
+import {
+	FaFacebookSquare,
+	FaBehanceSquare,
+	FaInstagramSquare,
+	FaWhatsappSquare,
+} from 'react-icons/fa'
 
 import Logo from '/public/icons/logo.svg'
 import aboutImg from '/public/images/home/about us.webp'
@@ -60,29 +65,31 @@ export const navigation = [
 	},
 ]
 
-export const social = [
+type SocialType = {
+	socialName: string
+	url: string
+	icon: JSX.Element
+}
+export const social: SocialType[] = [
 	{
 		socialName: 'facebook',
 		url: 'https://www.facebook.com/profile.php?id=100085078434274',
-		icon: <FaFacebookSquare />
+		icon: <FaFacebookSquare />,
 	},
 	{
 		socialName: 'instagram',
 		url: 'https://www.instagram.com/decodesigndecodesign/',
-		icon: <FaInstagramSquare />
-
+		icon: <FaInstagramSquare />,
 	},
 	{
 		socialName: 'whatsapp',
 		url: 'https://wa.me/+201152640142',
-		icon: <FaWhatsappSquare />
-
+		icon: <FaWhatsappSquare />,
 	},
 	{
 		socialName: 'Behance',
 		url: 'https://www.behance.net/ahmeddesigner1981',
-		icon: <FaBehanceSquare />
-
+		icon: <FaBehanceSquare />,
 	},
 ]
 

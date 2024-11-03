@@ -5,9 +5,9 @@ import { project } from '@/constants/id'
 import Image from 'next/image'
 import { useState } from 'react'
 
-const IdWorkPage = ({ params }) => {
-	let projectId = params.id - 1
-	let myProject = project[projectId]
+const IdWorkPage = ({ params }: { params: { id: number } }) => {
+	const projectId = params.id - 1
+	const myProject = project[projectId]
 
 	const [selected, setSelected] = useState(myProject.images[0])
 

@@ -1,7 +1,13 @@
 import Link from 'next/link'
 import React from 'react'
 
-const Btn = ({ title, link, target }) => {
+type BtnProps={
+	title:string
+	 link:string
+	 target?:string
+}
+
+const Btn = ({ title, link, target }:BtnProps) => {
 	return (
 		<div className='w-full'>
 			<Link
