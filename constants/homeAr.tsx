@@ -40,26 +40,22 @@ export const arrow = {
 export const navigation = [
 	{
 		name: 'الرئيسية',
-		target: 'Hero',
 		url: '/',
 		id: 'hero',
 	},
 
 	{
 		name: 'أعمالنا',
-		target: 'OurWorks',
 		url: '/ourworks',
 		id: 'ourworks',
 	},
 	{
 		name: 'خدماتنا',
-		target: 'ourservices',
 		url: '/ourservices',
 		id: 'ourservices',
 	},
 	{
 		name: 'مقالات',
-		target: 'articles',
 		url: '/articles',
 		id: 'articles',
 	},

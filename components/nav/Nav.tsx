@@ -43,7 +43,7 @@ const Nav = () => {
 				onClick={handleClick}
 			>
 				{/*---------Mobile Nav-------- */}
-				<NavMobile handleClick={handleClick} />
+				<NavMobile  />
 			</div>
 		</header>
 	)
