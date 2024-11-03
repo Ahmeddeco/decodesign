@@ -31,7 +31,7 @@
 	}
 
 	section {
-		@apply flex justify-center items-center h-auto min-h-screen mx-auto w-full  pt-8 lg:px-12 px-6;
+		@apply flex xl:flex-row flex-col justify-center items-center h-auto mx-auto w-full  pt-8 xl:px-12 px-6;
 	}
 	.bg-box {
 		@apply bg-boxesBg  bg-cover;
