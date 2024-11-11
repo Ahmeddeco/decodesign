@@ -3,27 +3,27 @@
 @tailwind utilities;
 @layer base {
 	.h1 {
-		@apply font-bold  xl:text-9xl text-5xl font-marhey;
+		@apply font-bold  xl:text-9xl text-5xl font-marhey text-secondary;
 	}
 
 	.h2 {
-		@apply font-bold  xl:text-5xl text-3xl font-marhey;
+		@apply font-bold  xl:text-5xl text-3xl font-marhey text-secondary;
 	}
 
 	.h3 {
-		@apply font-semibold  xl:text-4xl text-xl font-marhey;
+		@apply font-semibold  xl:text-4xl text-xl font-marhey text-secondary;
 	}
 
 	.h4 {
-		@apply font-medium  xl:text-3xl text-lg font-marhey;
+		@apply font-medium  xl:text-3xl text-lg font-marhey text-secondary;
 	}
 
 	.h5 {
-		@apply font-normal  xl:text-2xl text-base font-marhey;
+		@apply font-normal  xl:text-2xl text-base font-marhey text-secondary;
 	}
 
 	.h6 {
-		@apply font-light  xl:text-xl text-sm font-marhey;
+		@apply font-light  xl:text-xl text-sm font-marhey text-secondary;
 	}
 
 	.p {

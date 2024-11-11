@@ -38,7 +38,7 @@ const Section = ({
 			{/* text */}
 			<div className=' w-full xl:w-2/6'>
 				<div className='flex-col flex gap-2 xl:gap-6 justify-center items-start '>
-					<h2 className='h2 text-secondary'>{h2}</h2>
+					<h2 className='h2 '>{h2}</h2>
 
 					<div className='flex flex-col gap-4'>
 						<p className='p '>{p1}</p>
@@ -55,7 +55,7 @@ const Section = ({
 										key={index}
 									>
 										<h4 className='h4 font-normal text-base-100'>{value}</h4>
-										<h6 className='h6  text-secondary'>{title}</h6>
+										<h6 className='h6  '>{title}</h6>
 									</div>
 								)
 							})}
@@ -70,13 +70,13 @@ const Section = ({
 										key={num}
 										className='flex gap-6 xl:items-start xl:justify-start items-center justify-center '
 									>
-										<div className='text-secondary h3 '>
+										<div className=' h3 '>
 											{/* number */}
 											{num}
 										</div>
 										<div className='flex flex-col xl:gap-4 gap-2 '>
 											{/* title */}
-											<h3 className='h3 text-secondary '>{title}</h3>
+											<h3 className='h3  '>{title}</h3>
 											{/* para */}
 											<p className='p'>{p}</p>
 										</div>

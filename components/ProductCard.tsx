@@ -17,9 +17,9 @@ const ProductCard = () => {
 						>
 							{/* text container */}
 							<div className='w-full lg:w-1/3 flex flex-col gap-4 lg:gap-12 xl:text-start text-center'>
-								<h2 className='h2 text-secondary '>{title}</h2>
+								<h2 className='h2  '>{title}</h2>
 								<div className='flex flex-col gap-4'>
-									<h5 className='h5 text-secondary'>{location}</h5>
+									<h5 className='h5 '>{location}</h5>
 									<p className='p'>{paragraph}</p>
 								</div>
 								<Btn link={`/ourworks/${id}`} title='شاهد المزيد ' />

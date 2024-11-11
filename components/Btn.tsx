@@ -1,13 +1,13 @@
 import Link from 'next/link'
 import React from 'react'
 
-type BtnProps={
-	title:string
-	 link:string
-	 target?:string
+type BtnProps = {
+	title: string
+	link: string
+	target?: string
 }
 
-const Btn = ({ title, link, target }:BtnProps) => {
+const Btn = ({ title, link, target }: BtnProps) => {
 	return (
 		<div className='w-full'>
 			<Link
@@ -15,7 +15,7 @@ const Btn = ({ title, link, target }:BtnProps) => {
 				className='text-xl items-center justify-center flex w-full'
 				target={target}
 			>
-				<button className='btn-secondary btn btn-block xl:btn-wide font-cairo font-semibold text-lg '>
+				<button className='btn-secondary btn btn-block  font-cairo font-semibold text-lg '>
 					{title}
 				</button>
 			</Link>
