@@ -43,7 +43,7 @@ export default function RootLayout({
 		>
 			<body className=' bg-primary '>
 				<Nav />
-				<main className='bg-boxesBg bg-contain pt-20'>{children}</main>
+				<main className='bg-boxesBg bg-contain pt-20 '>{children}</main>
 				<Footer />
 			</body>
 		</html>

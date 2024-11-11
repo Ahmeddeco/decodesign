@@ -30,7 +30,7 @@ const Nav = () => {
 
 				<div
 					onClick={handleClick}
-					className='xl:text-4xl text-lg  z-50 xl:hidden block'
+					className='xl:text-4xl text-lg text-secondary z-50 xl:hidden block'
 				>
 					{mobileNav ? <TfiClose /> : <TfiMenu />}
 				</div>
@@ -39,7 +39,7 @@ const Nav = () => {
 			<div
 				className={`${
 					mobileNav ? 'left-0' : '-left-full'
-				} xl:hidden fixed bottom-0 w-screen transition-all gap-y-4 bg-darkblack mt-8`}
+				} xl:hidden fixed bottom-0 w-screen transition-all gap-y-4 bg-base-content mt-8`}
 				onClick={handleClick}
 			>
 				{/*---------Mobile Nav-------- */}
