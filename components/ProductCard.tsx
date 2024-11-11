@@ -8,24 +8,21 @@ const ProductCard = () => {
 		<>
 			{ourWorksPage.map(({ id, location, paragraph, title, pic }) => {
 				return (
-					<section className='' key={id}>
+					<section className='px-8 xl:px-20 xl:pt-20 pt-8' key={id}>
 						{/* main map container */}
 						<div
 							className={`flex  ${
 								id % 2 === 0 ? 'xl:flex-row-reverse' : 'xl:flex-row'
-							} flex-col items-center justify-center w-full h-auto xl:gap-16 gap-8`}
+							} flex-col-reverse items-center justify-center w-full h-auto xl:gap-16 gap-8`}
 						>
 							{/* text container */}
 							<div className='w-full lg:w-1/3 flex flex-col gap-4 lg:gap-12 xl:text-start text-center'>
-								<h2 className='h2 text-secondary font-lemonada'>{title}</h2>
+								<h2 className='h2 text-secondary '>{title}</h2>
 								<div className='flex flex-col gap-4'>
 									<h5 className='h5 text-secondary'>{location}</h5>
 									<p className='p'>{paragraph}</p>
 								</div>
-								<Btn
-									link={`/ourworks/${id}`}
-									title='شاهد المزيد '
-								/>
+								<Btn link={`/ourworks/${id}`} title='شاهد المزيد ' />
 							</div>
 							{/* images container */}
 							<div className='w-full xl:w-2/3 flex xl:gap-16 gap-8 xl:flex-row flex-col items-center '>

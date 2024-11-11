@@ -12,7 +12,7 @@ const Nav = () => {
 	const handleClick = () => setMobileNav(!mobileNav)
 
 	return (
-		<header className='fixed z-50  bg-primary/95 h-20'>
+		<header className='fixed z-50  bg-primary/95 h-20 '>
 			<nav className='w-screen flex  items-center justify-between py-4 px-8  xl:py-4 xl:px-20  mx-auto'>
 				{/*--------- logo-------- */}
 				<Logo />
@@ -43,7 +43,7 @@ const Nav = () => {
 				onClick={handleClick}
 			>
 				{/*---------Mobile Nav-------- */}
-				<NavMobile  />
+				<NavMobile />
 			</div>
 		</header>
 	)

@@ -6,9 +6,9 @@ import {
 } from 'react-icons/fa'
 
 import Logo from '/public/icons/logo.svg'
-import aboutImg from '/public/images/home/about us.webp'
-import servicesImg from '/public/images/home/our service photo.webp'
-import workProcessImg from '/public/images/home/our work process photo.webp'
+import aboutImg from '/public/images/home/about.webp'
+import servicesImg from '/public/images/home/our-service.webp'
+import workProcessImg from '/public/images/home/work-proccess.webp'
 import ourWorkImg from '/public/images/home/our works.webp'
 import japanidi1 from '/public/images/our works/japanidi/japanidi 1.webp'
 import japanidi2 from '/public/images/our works/japanidi/japanidi 2.webp'
@@ -29,12 +29,6 @@ import blueApartment3 from '/public/images/our works/blue apartment/blue apartme
 export const logo = {
 	src: Logo,
 	alt: 'deco design logo',
-}
-
-export const arrow = {
-	black: '/public/icons/downArrowBlack.png',
-	gold: '/public/icons/downArrowGold.png',
-	white: '/public/icons/downArrow.png',
 }
 
 export const navigation = [
@@ -96,9 +90,7 @@ export const hero = {
 }
 
 export const about = {
-	title: 'من',
-	span: 'نحن',
-
+	title: 'من نحن',
 	p1: 'نحن نؤمن بالتفكير المختلف وأن أهم شيء لراحة الإنسان هو العيش في بيئة هادئة ومبهجة تلبي احتياجاته وتساعده على البقاء سعيدًا ومرتاحًا دائمًا.',
 	p2: 'كما نؤمن أن الجمال والرقي يكمن في البساطة والانسجام وإرضاء ذوق العميل ورغباته. نحن نقوم بعمل تصاميم داخلية رائعة.',
 	img: aboutImg,
@@ -128,8 +120,7 @@ export const services = {
 }
 
 export const workProcess = {
-	mainTitle: 'مراحل',
-	span: 'العمل',
+	mainTitle: ' مراحل العمل',
 	img: workProcessImg,
 	imgAlt: 'modern dinning room',
 	subTitle: [
@@ -176,7 +167,7 @@ export const footer = {
 	},
 }
 
-//? ######### ourWorksPage ##########
+/* ------------------------------ ourWorksPage ------------------------------ */
 
 export const ourWorksPage = [
 	{

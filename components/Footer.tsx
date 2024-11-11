@@ -19,7 +19,7 @@ const Footer = () => {
 				</div>
 				{/* our services */}
 				<div className='flex flex-col gap-8 items-center justify-center lg:w-4/12 '>
-					<h3 className='h3 text-secondary font-lemonada'>
+					<h3 className='h3 text-secondary '>
 						{footer.ourServices.title}
 					</h3>
 					<div className=''>
@@ -39,7 +39,7 @@ const Footer = () => {
 				</div>
 				{/* Social Icons */}
 				<div className='flex flex-col gap-8 lg:items-end items-center lg:w-4/12 '>
-					<h3 className='h3 text-secondary font-lemonada'>
+					<h3 className='h3 text-secondary '>
 						{footer.communication.title}
 					</h3>
 					<div className=''>

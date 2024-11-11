@@ -16,7 +16,7 @@ const NavMobile = () => {
 							<Link
 								className={`${
 									pathname === url ? 'text-secondary' : 'text-base-100'
-								} cursor-pointer  text-2xl font-bold font-vazirmatn`}
+								} cursor-pointer  text-2xl font-bold font-cairo`}
 								href={url}
 							>
 								{name}

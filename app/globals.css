@@ -2,36 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 @layer base {
-	.p {
-		@apply font-vazirmatn xl:font-normal font-normal text-start  text-base-100 lg:text-2xl text-lg;
-	}
-
 	.h1 {
-		@apply font-bold  xl:text-9xl text-5xl font-lemonada;
+		@apply font-bold  xl:text-9xl text-5xl font-marhey;
 	}
 
 	.h2 {
-		@apply font-bold  xl:text-5xl text-3xl font-lemonada;
+		@apply font-bold  xl:text-5xl text-3xl font-marhey;
 	}
 
 	.h3 {
-		@apply font-semibold  xl:text-4xl text-xl font-lemonada;
+		@apply font-semibold  xl:text-4xl text-xl font-marhey;
 	}
 
 	.h4 {
-		@apply font-medium  xl:text-3xl text-lg font-lemonada;
+		@apply font-medium  xl:text-3xl text-lg font-marhey;
 	}
 
 	.h5 {
-		@apply font-normal  xl:text-2xl text-base font-lemonada;
+		@apply font-normal  xl:text-2xl text-base font-marhey;
 	}
 
 	.h6 {
-		@apply font-light  xl:text-xl text-sm font-lemonada;
+		@apply font-light  xl:text-xl text-sm font-marhey;
 	}
 
-	section {
-		@apply flex xl:flex-row flex-col justify-center items-center h-auto mx-auto w-full  pt-8 xl:px-12 px-6;
+	.p {
+		@apply font-cairo xl:font-medium font-normal xl:text-start text-center text-balance text-base-100 lg:text-2xl text-lg;
+	}
+
+	.section {
+		@apply flex flex-col xl:flex-row xl:gap-14 gap-6 px-5 xl:px-20 py-10 lg:py-20 justify-center items-center max-h-svh h-auto mx-auto my-20;
 	}
 	.bg-box {
 		@apply bg-boxesBg  bg-cover;

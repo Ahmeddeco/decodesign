@@ -10,6 +10,13 @@ const config = {
   theme: {
     container: {
       center: true,
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '4rem',
+        xl: '5rem',
+        '2xl': '6rem',
+      },
     },
     extend: {
       backgroundImage: {
@@ -18,8 +25,8 @@ const config = {
         boxesBg: "url('/images/home/boxes.webp')",
       },
       fontFamily: {
-        vazirmatn: ['var(--font-vazirmatn)'],
-        lemonada: ['var(--font-lemonada)'],
+        marhey: ['var(--font-marhey)'],
+        cairo: ['var(--font-cairo)'],
       },
     },
     screens: {

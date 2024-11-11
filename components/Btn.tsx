@@ -15,7 +15,7 @@ const Btn = ({ title, link, target }:BtnProps) => {
 				className='text-xl items-center justify-center flex w-full'
 				target={target}
 			>
-				<button className='btn-secondary btn btn-block xl:btn-wide font-vazirmatn font-semibold text-lg '>
+				<button className='btn-secondary btn btn-block xl:btn-wide font-cairo font-semibold text-lg '>
 					{title}
 				</button>
 			</Link>
