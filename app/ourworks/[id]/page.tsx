@@ -12,8 +12,8 @@ const IdWorkPage = ({ params }: { params: { id: number } }) => {
 	const [selected, setSelected] = useState(myProject.images[0])
 
 	return (
-		<section className='text-base-100 w-screen h-screen'>
-			<div className='flex xl:flex-row-reverse flex-col-reverse gap-8 items-center justify-start w-full h-auto pt-24 xl:pt-8'>
+		<section className='p-4 xl:p-8'>
+			<div className='flex xl:flex-row-reverse flex-col-reverse gap-8 items-center justify-center w-full h-auto '>
 				{/* text container */}
 				<div className='xl:w-3/12 w-full flex flex-col  gap-8 lg:gap-12 max-h-[760px]'>
 					<h2 className='h2  '>{myProject.title}</h2>

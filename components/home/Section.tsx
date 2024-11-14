@@ -61,23 +61,18 @@ const Section = ({
 							})}
 						</div>
 					)}
-					{/* Process */}
+					{/* Work Process */}
 					{process && (
-						<div className=''>
+						<div className='flex flex-col xl:gap-10 gap-4'>
 							{process.map(({ num, p, title }) => {
 								return (
-									<div
-										key={num}
-										className='flex gap-6 xl:items-start xl:justify-start items-center justify-center '
-									>
-										<div className=' h3 '>
-											{/* number */}
-											{num}
-										</div>
-										<div className='flex flex-col xl:gap-4 gap-2 '>
+									<div className='flex gap-4 ' key={num}>
+										{/* number */}
+										<h3 className=' h3 '>{num}</h3>
+										<div className='flex flex-col gap-2 '>
 											{/* title */}
 											<h3 className='h3  '>{title}</h3>
-											{/* para */}
+											{/* paragraph */}
 											<p className='p'>{p}</p>
 										</div>
 									</div>

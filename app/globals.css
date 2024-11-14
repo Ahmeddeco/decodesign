@@ -27,7 +27,7 @@
 	}
 
 	.p {
-		@apply font-cairo xl:font-medium font-normal xl:text-start text-center text-balance text-base-100 lg:text-2xl text-lg;
+		@apply font-cairo xl:font-medium font-normal text-balance text-base-100 lg:text-2xl text-lg;
 	}
 
 	.section {
